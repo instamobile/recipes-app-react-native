@@ -21,13 +21,11 @@ export default class RecipeScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
       headerTransparent: 'true',
-      headerLeft: (
-        <BackButton
-          onPress={() => {
-            navigation.goBack();
-          }}
-        />
-      )
+      headerLeft: () => <BackButton
+        onPress={() => {
+          navigation.goBack();
+        }}
+      />
     };
   };
 

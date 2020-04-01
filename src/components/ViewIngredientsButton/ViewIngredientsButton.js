@@ -6,7 +6,7 @@ import styles from './styles';
 export default class ViewIngredientsButton extends React.Component {
   render() {
     return (
-      <TouchableHighlight underlayColor='rgba(73,182,77,1,0.9)' onPress={this.props.onPress}>
+      <TouchableHighlight underlayColor='rgba(73,182,77,0.9)' onPress={this.props.onPress}>
         <View style={styles.container}>
           <Text style={styles.text}>View Ingredients</Text>
         </View>
