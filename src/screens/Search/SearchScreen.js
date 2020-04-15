@@ -36,7 +36,8 @@ export default class SearchScreen extends React.Component {
             flex: 1
           }}
           inputContainerStyle={{
-            backgroundColor: '#EDEDED'
+            backgroundColor: '#EDEDED',
+            width: 200
           }}
           inputStyle={{
             backgroundColor: '#EDEDED',
