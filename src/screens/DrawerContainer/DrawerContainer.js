@@ -5,7 +5,6 @@ import styles from './styles';
 import MenuButton from '../../components/MenuButton/MenuButton';
 
 
-
 export default class DrawerContainer extends React.Component {
   render() {
     const { navigation } = this.props;
