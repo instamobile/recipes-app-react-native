@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f85a7de-0b4b-47a6-b49b-45b97594112d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ViewIngredientsButton/ViewIngredientsButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ViewIngredientsButton/ViewIngredientsButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Categories/CategoriesScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Categories/CategoriesScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Home/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Ingredient/IngredientScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Ingredient/IngredientScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/IngredientsDetails/IngredientsDetailsScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/IngredientsDetails/IngredientsDetailsScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Recipe/RecipeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Recipe/RecipeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/RecipesList/RecipesListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/RecipesList/RecipesListScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Search/SearchScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Search/SearchScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qPdWOgARKqMAklThChhjQ59WQg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f85a7de-0b4b-47a6-b49b-45b97594112d" name="Default Changelist" comment="" />
+      <created>1616985190768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616985190768</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1336" height="624" key="AVDManager" timestamp="1616986325931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="100" y="100" width="1336" height="624" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1616986325931" />
+  </component>
+</project>
