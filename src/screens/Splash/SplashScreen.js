@@ -18,7 +18,7 @@ export default class SplashScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Image style={styles.photo} source={require('../../../assets/icons/cookie100.png')} />
+        <Image style={styles.photo} source={require('../../../assets/icons/subasta.png')} />
       </View>
     );
   }
