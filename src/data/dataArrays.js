@@ -121,7 +121,7 @@ export const recipes = [
       [28, '2'],
       [29, '1 cup']
     ],
-    description:
+    description: 
       'Venta de garage por todo el contenido de una casa'
       
   },
