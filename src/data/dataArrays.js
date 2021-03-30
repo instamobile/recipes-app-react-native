@@ -123,6 +123,7 @@ export const recipes = [
     ],
     description:
       'Venta de garage por todo el contenido de una casa'
+      
   },
   {
     recipeId: 1,
