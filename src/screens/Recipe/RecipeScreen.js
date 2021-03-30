@@ -111,7 +111,7 @@ export default class RecipeScreen extends React.Component {
             <ViewIngredientsButton
               onPress={() => {
                 let ingredients = item.ingredients;
-                let title = 'Ingredients for ' + item.title;
+                let title = '' + item.title;
                 navigation.navigate('IngredientsDetails', { ingredients, title });
               }}
             />
