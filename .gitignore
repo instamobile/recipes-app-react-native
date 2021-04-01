@@ -62,3 +62,7 @@ typings/
 .expo/packager-info.json
 .expo/settings.json
 package-lock.json
+
+.expo\web\cache\production\images\favicon
+
+
