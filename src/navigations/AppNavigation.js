@@ -13,6 +13,7 @@ import DrawerContainer from '../screens/DrawerContainer/DrawerContainer';
 import IngredientScreen from '../screens/Ingredient/IngredientScreen';
 import SearchScreen from '../screens/Search/SearchScreen';
 import IngredientsDetailsScreen from '../screens/IngredientsDetails/IngredientsDetailsScreen';
+//import CargarNuevoProducto from '../screens/CargarNuevoProducto/CargarNuevoProducto';
 
 /* const Stack = createStackNavigator();
 

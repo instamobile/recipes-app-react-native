@@ -1,30 +1,30 @@
 export const categories = [
   {
     id: 3,
-    name: 'Cookies',
+    name: 'Catálogo',
     photo_url:
     'https://www.telegraph.co.uk/content/dam/Travel/2019/January/france-food.jpg?imwidth=1400'
   },
   {
     id: 1,
-    name: 'Mexican Food',
+    name: 'Catálogo',
     photo_url: 'https://ak1.picdn.net/shutterstock/videos/19498861/thumb/1.jpg'
   },
   {
     id: 2,
-    name: 'Italian Food',
+    name: 'Catálogo',
     photo_url:
       'https://images.unsplash.com/photo-1533777324565-a040eb52facd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
   },
   {
     id: 4,
-    name: 'Smoothies',
+    name: 'Catálogo',
     photo_url:
     'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/still-life-of-three-fresh-smoothies-in-front-of-royalty-free-image-561093647-1544042068.jpg?crop=0.715xw:0.534xh;0.0945xw,0.451xh&resize=768:*'
   },
   {
     id: 0,
-    name: 'Pizza',
+    name: 'Catálogo',
     photo_url: 'https://amp.businessinsider.com/images/5c084bf7bde70f4ea53f0436-750-563.jpg'
   },
 ];
@@ -33,47 +33,46 @@ export const recipes = [
   {
     recipeId: 122,
     categoryId: 3,
-    title: 'Oatmeal Cookies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
+    title: 'Autos de Perez',
+    photo_url: 'https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/12/05153908/Autos-mas-vendidos-Argentina.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
-      "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
-      'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
-      'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
-      'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
+      'https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/12/05153908/Autos-mas-vendidos-Argentina.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8q6ImUoL5oUjug_oJLgcHtT8fibnJkxJOkTXLP4U-ZmpdUy-N56O9sWzvMI9DTIqtMwM&usqp=CAU',
+      'https://img.autocosmos.com/noticias/fotos/preview/NAZ_701d8a1d6dc24d948e4adbc1c959b0ac.jpg',
+      'https://www.rentarlowcost.com/images/notas/alquiler%20de%20autos%20en%20argentina%20buenos%20aires%20salta.jpg'
+      
     ],
-    time: '15',
-    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
-    description:
-      '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
+    time: '15/04/2021',
+    ingredients: [[0, '$200000'], [1, '$494395'], [2, '$42423']],
+    description: 'Autos del año 2019 en adelante con poco uso. Excelente estado.'
   },
   {
     recipeId: 3,
     categoryId: 4,
-    title: 'Triple Berry Smoothie',
+    title: 'Galería de Sophie',
     photo_url:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
+      'https://decobauhaus.com/wp-content/uploads/2019/11/CUADRO3PIEZAS.jpg',
     photosArray: [
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
-      'https://www.vitamix.com/media/other/images/xVitamix-Triple-Berry-Smoothie-square-crop__1.jpg.pagespeed.ic.OgTC3ILD3R.jpg',
-      'http://images.media-allrecipes.com/userphotos/960x960/3798204.jpg',
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrzui8MM6W66I29VZwVvcjpGv99JW3O1owgupc3KwB65rhAyrZ'
+      'https://decobauhaus.com/wp-content/uploads/2019/11/CUADRO3PIEZAS.jpg',
+      'https://artenet.es/media/reviews/photos/thumbnail/550x550s/64/9b/e5/18706-cuadros-pequenos-y-unicos-56-1560267223.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/61N%2BvTmkVjL._AC_SX522_.jpg'
+      
     ],
-    time: '10',
+    time: '10/04/2021',
     ingredients: [
       [59, '1'],
       [60, '1/2 lbs'],
       [61, '1/2 liters'],
     ],
-    description: 'In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with blackberries, if desired.'
+    description: 'Galería de cuadros famosos'
   },
   {
     recipeId: 2,
     categoryId: 3,
-    title: 'Vegan Cookies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
+    title: 'Vajillas antinguas',
+    photo_url: 'https://images-na.ssl-images-amazon.com/images/I/71KXAhzy-tL._AC_SX466_.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/71KXAhzy-tL._AC_SX466_.jpg',
       'https://ichef.bbci.co.uk/news/660/cpsprodpb/B2C0/production/_106106754_vegnuggets976.jpg',
       'https://pixel.nymag.com/imgs/daily/grub/2017/11/22/22-mcds-chicken-tenders.w330.h330.jpg',
       'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Flarge_16_9%2Fpublic%2Fstyles%2Fmain%2Fpublic%2Fgettyimages-508510211.jpg%3Fitok%3Dh-Uryi8r&w=400&c=sc&poi=face&q=85'
@@ -92,19 +91,19 @@ export const recipes = [
       [21, '4']
     ],
     description:
-      '-- Beat the egg and then combine it with water in a bowl. Stir. Combine the flour, salt, MSG, pepper, onion powder and garlic powder in a gallon size zip lock bag. Pound each of the breast filets until about 1/4-inch thick. Then cut into bite sized pieces. Coat each piece with the flour mixture by shaking in the zip lock bag. Remove and coat in the egg mixture. Then coat in the flour mixture again. Shake to coat. Deep fry at 375 degrees for 10-12 minutes, until browned and crispy.'
+      'Vajilla de colección de los años 1910. Mucha variedad de tazas, teteras y más!'
   },
   {
     recipeId: 3,
     categoryId: 3,
-    title: 'Pumpkin Spice Cookies',
+    title: 'Venta de garage',
     photo_url:
-      'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
+      'https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/hogartotal/T/Tips-para-organizar-una-venta-de-garaje-1.JPG',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
-      'https://cdn.junglecreations.com/wp/junglecms/2018/07/4164c5bd-wide-thumbnail.jpg',
-      'https://pinchofyum.com/wp-content/uploads/Crunchwrap-Inside.jpg',
-      'https://monsonmadethis.com/wp-content/uploads/2017/10/IMG_20171015_161017_025-e1533869302263.jpg'
+      'https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/hogartotal/T/Tips-para-organizar-una-venta-de-garaje-1.JPG',
+      'https://i.pinimg.com/originals/3e/41/d4/3e41d4713e5fcb513a3c1cac14b4597f.jpg',
+      'https://http2.mlstatic.com/D_NQ_NP_800586-MLA32504246911_102019-O.jpg',
+      'https://http2.mlstatic.com/D_NQ_NP_887576-MLA31606013562_072019-V.jpg'
     ],
     time: '45',
     ingredients: [
@@ -122,8 +121,9 @@ export const recipes = [
       [28, '2'],
       [29, '1 cup']
     ],
-    description:
-      '-- In a medium pot over medium heat, heat 1 tablespoon oil. Add onion and cook until soft, 5 minutes. Add garlic and cook until fragrant, 1 minute more. Add tomato paste and stir to coat onion and garlic. Add ground beef and cook, breaking up meat with a wooden spoon, until no longer pink, 6 minutes. Drain fat.\n\n -- Return beef to pot and season with chili powder, paprika, salt, and pepper. Add tomato sauce and kidney beans. Bring to a boil, then reduce heat and let simmer 15 minutes. Add some chili to center of each tortilla, leaving room to fold in edges. Top with Fritos, then cheddar. Fold edges of tortillas toward the center, creating pleats. Invert Crunchwraps so pleats are on the bottom and stay together.\n\n -- In medium skillet over medium heat, heat remaining tablespoon oil. Add a Crunchwrap seam side down and cook until tortilla is golden, 3 to 5 minutes per side. Repeat with remaining Crunchwraps'
+    description: 
+      'Venta de garage por todo el contenido de una casa'
+      
   },
   {
     recipeId: 1,
@@ -229,20 +229,20 @@ export const recipes = [
     ],
     time: 50,
     ingredients: [
-      [39, '1 lb'],
-      [40, '1 cup'],
-      [41, '1/2 cup'],
-      [42, '1/4 cup'],
-      [43, '2 tablespoons'],
-      [44, '1/2 cup'],
-      [7, '1/4 teaspoons'],
-      [5, '1/4 teaspoons'],
-      [30, '1/4 teaspoons'],
-      [45, '2 oz'],
-      [12, 'for dusting'],
-      [4, '1/2 teaspoons'],
-      [47, '2'],
-      [46, '9 oz']
+      [39, '$3335'],
+      [40, '$3335'],
+      [41, '$3335'],
+      [42, '$3335'],
+      [43, '$3335'],
+      [44, '$3335'],
+      [7, '$3335'],
+      [5, '$3335'],
+      [30, '$3335'],
+      [45, '$3335'],
+      [12, '$3335'],
+      [4, '$3335'],
+      [47, '$3335'],
+      [46, '$3335']
     ],
     description:
       '-- Place a rack in upper third of oven. Place a large cast-iron skillet on rack and preheat oven to 500° (or as high as your oven will go). Place pizza dough in a large bowl, pour a little oil over, and turn to coat. Cover bowl with plastic and let dough proof at room temperature while pan and oven heat up.\n\n -- Meanwhile, cook hot sauce, marinara sauce, and butter in a medium saucepan over medium heat, stirring occasionally, until butter is melted. Stir in cream, reduce heat to low, and simmer, stirring occasionally, until slightly thickened and warmed through, about 10 minutes. Heat 1 Tbsp. oil in a large skillet over medium-high. Add chicken, toss to coat, then add ¼ cup Buffalo sauce.\n\n -- Cook chicken, tossing occasionally, until heated through, about 2 minutes. Reduce heat and simmer, stirring often, until chicken is well coated and sauce is slightly thickened, about 5 minutes. Meanwhile, whisk yogurt, lemon juice, celery salt, garlic powder, ¼ cup blue cheese, ½ tsp. pepper, and 2 Tbsp. water in a small bowl, adding more water if sauce seems too thick (it should be pourable); set aside.\n\n -- Turn out dough onto a lightly floured work surface. Shape with your hands into a round that’s slightly larger than the cast-iron skillet you’re using. Take hot skillet out of oven (watch that handle!) and place on a heatproof surface. Add a little flour to pan. Lay dough in skillet, then work edges of dough up sides of skillet with your fingertips (use a rubber spatula or wooden spoon if you’re nervous about touching the hot pan). Drizzle a little oil around inside edge of pan so that it trickles behind and underneath dough, which will encourage browning and help it release.\n\n -- Spread about ⅓ cup Buffalo sauce over dough. Arrange mozzarella over, then top with remaining ¼ cup blue cheese. Arrange chicken mixture on top. Bake pizza on top rack until crust and cheese are nicely browned, 15–20 minutes. Transfer skillet to stovetop (again, watch that handle!) and let pizza rest a few minutes. Using a spatula, slide pizza onto a cutting board or platter. Arrange celery over, then top with reserved blue cheese dressing. Season with pepper, then drizzle with oil.'
@@ -325,19 +325,19 @@ export const recipes = [
 export const ingredients = [
   {
     ingredientId: 0,
-    name: 'Oil',
-    photo_url: 'https://ak7.picdn.net/shutterstock/videos/27252067/thumb/11.jpg'
+    name: 'Auto 1',
+    photo_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8q6ImUoL5oUjug_oJLgcHtT8fibnJkxJOkTXLP4U-ZmpdUy-N56O9sWzvMI9DTIqtMwM&usqp=CAU'
   },
   {
     ingredientId: 1,
-    name: 'Salt',
+    name: 'Auto 2',
     photo_url:
-      'https://image.freepik.com/free-photo/sea-salt-wooden-bowl-isolated-white-background_29402-416.jpg'
+    'https://img.autocosmos.com/noticias/fotos/preview/NAZ_701d8a1d6dc24d948e4adbc1c959b0ac.jpg'
   },
   {
     ingredientId: 2,
-    name: 'Russet potatoes',
-    photo_url: 'http://www.valleyspuds.com/wp-content/uploads/Russet-Potatoes-cut.jpg'
+    name: 'Auto 3',
+    photo_url: 'https://www.rentarlowcost.com/images/notas/alquiler%20de%20autos%20en%20argentina%20buenos%20aires%20salta.jpg'
   },
   {
     ingredientId: 3,
@@ -661,20 +661,20 @@ export const ingredients = [
   },
   {
     ingredientId: 59,
-    name: 'Banana',
+    name: 'Cuadro Abstracto',
     photo_url:
-      'https://www.conservationmagazine.org/wp-content/uploads/2013/04/sterile-banana.jpg'
+      'https://www.reprodart.com/images/template-pics/lemonslider/impressionismus-kunstkopie-slider.jpg'
   },
   {
     ingredientId: 60,
-    name: 'Frozen Straberries',
+    name: 'Cuadros Paisaje',
     photo_url:
-      'https://www.cascadianfarm.com/wp-content/uploads/2018/12/Strawberries_Main_0218.png'
+      'https://artenet.es/media/reviews/photos/thumbnail/550x550s/64/9b/e5/18706-cuadros-pequenos-y-unicos-56-1560267223.jpg'
   },
   {
     ingredientId: 61,
-    name: 'Greek Yogurt',
+    name: 'Cuadros en conjunto',
     photo_url:
-      'http://images.media-allrecipes.com/userphotos/960x960/3758635.jpg'
+      'https://images-na.ssl-images-amazon.com/images/I/61N%2BvTmkVjL._AC_SX522_.jpg'
   },
 ];
