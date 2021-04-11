@@ -20,10 +20,10 @@ export default class DrawerContainer extends React.Component {
             }}
           />
           <MenuButton
-            title="Mi perfil (categorias)"
+            title="Mi perfil"
             source={require('../../../assets/icons/category.png')}
             onPress={() => {
-              navigation.navigate('Categories');
+              navigation.navigate('MiPerfil');
               navigation.closeDrawer();
             }}
           />
@@ -60,18 +60,18 @@ export default class DrawerContainer extends React.Component {
             }}
           />
           <MenuButton
-            title="Historial de transacciones (categorias)"
+            title="Historial de transacciones"
             source={require('../../../assets/icons/category.png')}
             onPress={() => {
-              navigation.navigate('Categories');
+              navigation.navigate('HistorialTransacciones');
               navigation.closeDrawer();
             }}
           />
           <MenuButton
-            title="Medios de pago (categorias)"
+            title="Medios de pago"
             source={require('../../../assets/icons/category.png')}
             onPress={() => {
-              navigation.navigate('Categories');
+              navigation.navigate('MediosPago');
               navigation.closeDrawer();
             }}
           />
@@ -87,7 +87,15 @@ export default class DrawerContainer extends React.Component {
             }}
           />
 
-
+          {/*Solo para ver qué tal */}
+          <MenuButton
+            title="Login"
+            source={require('../../../assets/icons/info.png')}
+            onPress={() => {
+              navigation.navigate('Login');
+              navigation.closeDrawer();
+            }}
+          />
 
           
         </View>

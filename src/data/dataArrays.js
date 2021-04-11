@@ -678,3 +678,39 @@ export const ingredients = [
       'https://images-na.ssl-images-amazon.com/images/I/61N%2BvTmkVjL._AC_SX522_.jpg'
   },
 ];
+
+export const tarjetas = [
+  {
+    id: 1,
+    name: 'VISA',
+    number: '5462985265321598'
+  },
+  {
+    id: 2,
+    name: 'MasterCard',
+    number: '4268597135486245'
+  },
+  {
+    id: 3,
+    name: 'AMEX',
+    number: '2589631478592348'
+  },
+];
+
+export const cuentas = [
+  {
+    id: 1,
+    name: 'Caja de ahorros BBVA',
+    number: '5462985265321598'
+  },
+  {
+    id: 2,
+    name: 'Cuenta Corriente Santander',
+    number: '4268597135486245'
+  },
+  {
+    id: 3,
+    name: 'Cuenta Corriente ICBC',
+    number: '2589631478592348'
+  },
+];

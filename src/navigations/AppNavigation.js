@@ -13,6 +13,11 @@ import DrawerContainer from '../screens/DrawerContainer/DrawerContainer';
 import IngredientScreen from '../screens/Ingredient/IngredientScreen';
 import SearchScreen from '../screens/Search/SearchScreen';
 import IngredientsDetailsScreen from '../screens/IngredientsDetails/IngredientsDetailsScreen';
+import MiPerfilScreen from '../screens/MiPerfil/MiPerfil';
+import MediosPagoScreen from '../screens/MediosPago/MediosPago';
+import LoginScreen from '../screens/Login/Login';
+import HistorialTransaccionesScreen from '../screens/HistorialTransacciones/HistorialTransacciones';
+
 //import CargarNuevoProducto from '../screens/CargarNuevoProducto/CargarNuevoProducto';
 
 /* const Stack = createStackNavigator();
@@ -48,7 +53,11 @@ const MainNavigator = createStackNavigator(
     RecipesList: RecipesListScreen,
     Ingredient: IngredientScreen,
     Search: SearchScreen,
-    IngredientsDetails: IngredientsDetailsScreen
+    IngredientsDetails: IngredientsDetailsScreen,
+    MiPerfil: MiPerfilScreen,
+    MediosPago: MediosPagoScreen,
+    Login: LoginScreen,
+    HistorialTransacciones: HistorialTransaccionesScreen
   },
   {
     initialRouteName: 'Home',
