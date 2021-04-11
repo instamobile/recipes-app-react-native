@@ -17,8 +17,10 @@ import MiPerfilScreen from '../screens/MiPerfil/MiPerfil';
 import MediosPagoScreen from '../screens/MediosPago/MediosPago';
 import LoginScreen from '../screens/Login/Login';
 import HistorialTransaccionesScreen from '../screens/HistorialTransacciones/HistorialTransacciones';
+import MisFavoritosScreen from '../screens/MisFavoritos/MisFavoritos';
+import CargarNuevoProductoScreen from '../screens/CargarNuevoProducto/CargarNuevoProducto';
+import MisPublicacionesScreen from '../screens/MisPublicaciones/MisPublicaciones';
 
-//import CargarNuevoProducto from '../screens/CargarNuevoProducto/CargarNuevoProducto';
 
 /* const Stack = createStackNavigator();
 
@@ -57,7 +59,10 @@ const MainNavigator = createStackNavigator(
     MiPerfil: MiPerfilScreen,
     MediosPago: MediosPagoScreen,
     Login: LoginScreen,
-    HistorialTransacciones: HistorialTransaccionesScreen
+    HistorialTransacciones: HistorialTransaccionesScreen,
+   // MisFavoritos: MisFavoritosScreen,
+    CargarNuevoProducto: CargarNuevoProductoScreen,
+    MisPublicaciones:MisPublicacionesScreen
   },
   {
     initialRouteName: 'Home',

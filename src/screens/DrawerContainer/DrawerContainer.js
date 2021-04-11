@@ -27,8 +27,9 @@ export default class DrawerContainer extends React.Component {
               navigation.closeDrawer();
             }}
           />
+
           <MenuButton
-            title="Mis favoritos (categorias)"
+            title="Mis subastas activas (??)"
             source={require('../../../assets/icons/category.png')}
             onPress={() => {
               navigation.navigate('Categories');
@@ -36,31 +37,23 @@ export default class DrawerContainer extends React.Component {
             }}
           />
           <MenuButton
-            title="Mis subastas activas (categorias)"
+            title="Mis publicaciones"
             source={require('../../../assets/icons/category.png')}
             onPress={() => {
-              navigation.navigate('Categories');
+              navigation.navigate('MisPublicaciones');
               navigation.closeDrawer();
             }}
           />
           <MenuButton
-            title="Mis publicaciones (categorias)"
+            title="Cargar nuevo producto"
             source={require('../../../assets/icons/category.png')}
             onPress={() => {
-              navigation.navigate('Categories');
+              navigation.navigate('CargarNuevoProducto');
               navigation.closeDrawer();
             }}
           />
           <MenuButton
-            title="Cargar nuevo producto (categorias)"
-            source={require('../../../assets/icons/category.png')}
-            onPress={() => {
-              navigation.navigate('Categories');
-              navigation.closeDrawer();
-            }}
-          />
-          <MenuButton
-            title="Historial de transacciones"
+            title="Historial transacciones"
             source={require('../../../assets/icons/category.png')}
             onPress={() => {
               navigation.navigate('HistorialTransacciones');
@@ -78,14 +71,7 @@ export default class DrawerContainer extends React.Component {
 
 
 
-          <MenuButton
-            title="SEARCH (por las dudas)"
-            source={require('../../../assets/icons/search.png')}
-            onPress={() => {
-              navigation.navigate('Search');
-              navigation.closeDrawer();
-            }}
-          />
+
 
           {/*Solo para ver qué tal */}
           <MenuButton
@@ -96,6 +82,17 @@ export default class DrawerContainer extends React.Component {
               navigation.closeDrawer();
             }}
           />
+
+
+          <MenuButton
+            title="Cerrar Sesión"
+            source={require('../../../assets/icons/info.png')}
+            onPress={() => {
+              navigation.navigate('CerrarSesion');
+              navigation.closeDrawer();
+            }}
+          />
+
 
           
         </View>
@@ -109,3 +106,25 @@ DrawerContainer.propTypes = {
     navigate: PropTypes.func.isRequired
   })
 };
+
+
+/*
+
+          <MenuButton
+            title="Mis favoritos (categorias)"
+            source={require('../../../assets/icons/category.png')}
+            onPress={() => {
+              navigation.navigate('Categories');
+              navigation.closeDrawer();
+            }}
+          />
+
+          <MenuButton
+            title="SEARCH (por las dudas)"
+            source={require('../../../assets/icons/search.png')}
+            onPress={() => {
+              navigation.navigate('Search');
+              navigation.closeDrawer();
+            }}
+          />
+*/
