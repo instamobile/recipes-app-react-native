@@ -21,24 +21,19 @@ export default class DrawerContainer extends React.Component {
           />
           <MenuButton
             title="Mi perfil"
-            source={require('../../../assets/icons/category.png')}
+            source={require('../../../assets/icons/profile.png')}
             onPress={() => {
               navigation.navigate('MiPerfil');
               navigation.closeDrawer();
             }}
           />
 
-          <MenuButton
-            title="Mis subastas activas (??)"
-            source={require('../../../assets/icons/category.png')}
-            onPress={() => {
-              navigation.navigate('Categories');
-              navigation.closeDrawer();
-            }}
-          />
+
+
+
           <MenuButton
             title="Mis publicaciones"
-            source={require('../../../assets/icons/category.png')}
+            source={require('../../../assets/icons/publicaciones.png')}
             onPress={() => {
               navigation.navigate('MisPublicaciones');
               navigation.closeDrawer();
@@ -46,7 +41,7 @@ export default class DrawerContainer extends React.Component {
           />
           <MenuButton
             title="Cargar nuevo producto"
-            source={require('../../../assets/icons/category.png')}
+            source={require('../../../assets/icons/upload.png')}
             onPress={() => {
               navigation.navigate('CargarNuevoProducto');
               navigation.closeDrawer();
@@ -54,7 +49,7 @@ export default class DrawerContainer extends React.Component {
           />
           <MenuButton
             title="Historial transacciones"
-            source={require('../../../assets/icons/category.png')}
+            source={require('../../../assets/icons/history.png')}
             onPress={() => {
               navigation.navigate('HistorialTransacciones');
               navigation.closeDrawer();
@@ -62,13 +57,22 @@ export default class DrawerContainer extends React.Component {
           />
           <MenuButton
             title="Medios de pago"
-            source={require('../../../assets/icons/category.png')}
+            source={require('../../../assets/icons/payment.png')}
             onPress={() => {
               navigation.navigate('MediosPago');
               navigation.closeDrawer();
             }}
           />
 
+
+          <MenuButton
+            title="Cerrar Sesión"
+            source={require('../../../assets/icons/out.png')}
+            onPress={() => {
+              navigation.navigate('CerrarSesion');
+              navigation.closeDrawer();
+            }}
+          />
 
 
 
@@ -79,16 +83,6 @@ export default class DrawerContainer extends React.Component {
             source={require('../../../assets/icons/info.png')}
             onPress={() => {
               navigation.navigate('Login');
-              navigation.closeDrawer();
-            }}
-          />
-
-
-          <MenuButton
-            title="Cerrar Sesión"
-            source={require('../../../assets/icons/info.png')}
-            onPress={() => {
-              navigation.navigate('CerrarSesion');
               navigation.closeDrawer();
             }}
           />
@@ -109,6 +103,16 @@ DrawerContainer.propTypes = {
 
 
 /*
+
+
+          <MenuButton
+            title="Mis subastas activas (??)"
+            source={require('../../../assets/icons/category.png')}
+            onPress={() => {
+              navigation.navigate('Categories');
+              navigation.closeDrawer();
+            }}
+          />
 
           <MenuButton
             title="Mis favoritos (categorias)"
