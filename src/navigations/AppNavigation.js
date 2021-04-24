@@ -16,6 +16,7 @@ import IngredientsDetailsScreen from '../screens/IngredientsDetails/IngredientsD
 import MiPerfilScreen from '../screens/MiPerfil/MiPerfil';
 import MediosPagoScreen from '../screens/MediosPago/MediosPago';
 import LoginScreen from '../screens/Login/Login';
+import RegistroScreen from '../screens/Login/Registro';
 import HistorialTransaccionesScreen from '../screens/HistorialTransacciones/HistorialTransacciones';
 import MisFavoritosScreen from '../screens/MisFavoritos/MisFavoritos';
 import CargarNuevoProductoScreen from '../screens/CargarNuevoProducto/CargarNuevoProducto';
@@ -59,6 +60,7 @@ const MainNavigator = createStackNavigator(
     MiPerfil: MiPerfilScreen,
     MediosPago: MediosPagoScreen,
     Login: LoginScreen,
+    Registro: RegistroScreen,
     HistorialTransacciones: HistorialTransaccionesScreen,
    // MisFavoritos: MisFavoritosScreen,
     CargarNuevoProducto: CargarNuevoProductoScreen,

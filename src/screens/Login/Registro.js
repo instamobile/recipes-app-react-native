@@ -9,10 +9,10 @@ import {
 import { TextInput } from 'react-native-gesture-handler';
 import styles from './styles';
 
-export default class Login extends React.Component {
+export default class Registro extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
-      title: 'Inicio de sesión'
+      title: 'Registro'
     };
   };
 
@@ -25,18 +25,21 @@ export default class Login extends React.Component {
     return (
       <ScrollView style={styles.mainContainer}>
         <View>
+            <Text style={styles.title}>Nombre</Text>
+            <TextInput style={styles.input}></TextInput>
+            <Text style={styles.title}>Apellido</Text>
+            <TextInput style={styles.input}></TextInput>
+            <Text style={styles.title}>DNI</Text>
+            <TextInput style={styles.input}></TextInput>
+            <Text style={styles.title}>Email</Text>
+            <TextInput style={styles.input}></TextInput>
+            <Text style={styles.title}>Teléfono</Text>
+            <TextInput style={styles.input}></TextInput>
             <Text style={styles.title}>Usuario</Text>
             <TextInput style={styles.input}></TextInput>
             <Text style={styles.title}>Contraseña</Text>
             <TextInput style={styles.input}></TextInput>
-            <Button style={styles.button} title='Continuar como invitado'/>
-            <Button 
-              style={styles.button} 
-              title='Registrarse'
-              onPress={() => {
-                navigation.navigate('Registro');
-              }}
-            />
+            <Button style={styles.button} title='Registrarse'/>
         </View>
       </ScrollView>
     );
