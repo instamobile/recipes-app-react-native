@@ -23,13 +23,26 @@ export default class Login extends React.Component {
   render() {
     const { navigation } = this.props;
     return (
-      <ScrollView style={styles.mainContainer}>
+      <ScrollView style={styles.mainContainer}  scrollEnabled='false'>
         <View>
             <Text style={styles.title}>Usuario</Text>
             <TextInput style={styles.input}></TextInput>
             <Text style={styles.title}>Contraseña</Text>
             <TextInput style={styles.input}></TextInput>
-            <Button style={styles.button} title='Continuar como invitado'/>
+            <Button 
+              style={styles.buttonLogin} 
+              title='Iniciar sesión'
+              onPress={() => {
+                  navigation.navigate('Home');
+                }}
+            />
+            <Button 
+              style={styles.button} 
+              title='Continuar como invitado'
+              onPress={() => {
+                  navigation.navigate('Home');
+                }}
+            />
             <Button 
               style={styles.button} 
               title='Registrarse'

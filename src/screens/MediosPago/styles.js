@@ -43,8 +43,13 @@ const styles = StyleSheet.create({
     color: '#4BA9FF',
     textAlign: 'center',
     width: 100,
+    margin: 10
+  },
+  buttonArea: {
+    flexDirection: 'row',
+    color: '#4BA9FF',
     alignSelf: 'center',
-    bottom: -225
+    bottom: -225,
   },
   separator: {
     borderBottomColor: '#737373',
@@ -52,6 +57,45 @@ const styles = StyleSheet.create({
     width: 390,
     marginLeft: 10
   },
+  modal: {
+    flexDirection: 'row',
+    padding: 20
+  },
+  modalTitle: {
+    fontSize: 30,
+    textAlign: 'center',
+    marginTop: 10,
+    fontWeight: 'bold'
+  },
+  modalLabel: {
+    fontSize: 20,
+    textAlign: 'left',
+    fontWeight: 'bold',
+    marginBottom: 5
+  },
+  modalInput: {
+    fontSize: 20,
+    textAlign: 'left',
+    borderRadius: 15,
+    height: 20,
+    width: 200,
+    marginBottom: 10,
+    backgroundColor: '#B0D4F7',
+  },
+  modalButton: {
+    color: '#4BA9FF',
+    textAlign: 'center',
+    alignSelf: 'center',
+    width: 100,
+    margin: 10
+  },
+  columns: {
+    flexDirection: 'row',
+    alignSelf: 'center'
+  },
+  column: {
+    margin: 15
+  }
 });
 
 export default styles;

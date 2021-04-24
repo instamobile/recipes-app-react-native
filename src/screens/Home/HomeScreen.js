@@ -3,17 +3,26 @@ import { FlatList, ScrollView, Text, View, TouchableHighlight, Image } from 'rea
 import styles from './styles';
 import { recipes } from '../../data/dataArrays';
 import MenuImage from '../../components/MenuImage/MenuImage';
+import ProfileButton from '../../components/ProfileButton/ProfileButton';
+import MiPerfilScreen from '../MiPerfil/MiPerfil';
 import DrawerActions from 'react-navigation';
 import { getCategoryName } from '../../data/MockDataAPI';
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = ({ navigation }) => ({
     title: 'Inicio',
-    headerLeft: () => <MenuImage
-      onPress={() => {
-        navigation.openDrawer();
-      }}
-    />
+    headerLeft: () =>
+      <MenuImage
+        onPress={() => {
+          navigation.openDrawer();
+        }}
+      />,
+    headerRight: () =>
+      <ProfileButton
+        onPress={() => {
+          navigation.navigate('MiPerfil');
+        }}
+      />
   });
 
   constructor(props) {

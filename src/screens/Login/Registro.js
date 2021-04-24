@@ -23,23 +23,33 @@ export default class Registro extends React.Component {
   render() {
     const { navigation } = this.props;
     return (
-      <ScrollView style={styles.mainContainer}>
+      <ScrollView style={styles.mainContainer} scrollEnabled='false'>
         <View>
-            <Text style={styles.title}>Nombre</Text>
-            <TextInput style={styles.input}></TextInput>
-            <Text style={styles.title}>Apellido</Text>
-            <TextInput style={styles.input}></TextInput>
-            <Text style={styles.title}>DNI</Text>
-            <TextInput style={styles.input}></TextInput>
-            <Text style={styles.title}>Email</Text>
-            <TextInput style={styles.input}></TextInput>
-            <Text style={styles.title}>Teléfono</Text>
-            <TextInput style={styles.input}></TextInput>
-            <Text style={styles.title}>Usuario</Text>
-            <TextInput style={styles.input}></TextInput>
-            <Text style={styles.title}>Contraseña</Text>
-            <TextInput style={styles.input}></TextInput>
-            <Button style={styles.button} title='Registrarse'/>
+            <Text style={styles.titleRegisterScreen}>Nombre</Text>
+            <TextInput style={styles.inputRegisterScreen}></TextInput>
+            <Text style={styles.titleRegisterScreen}>Apellido</Text>
+            <TextInput style={styles.inputRegisterScreen}></TextInput>
+            <Text style={styles.titleRegisterScreen}>DNI</Text>
+            <TextInput style={styles.inputRegisterScreen}></TextInput>
+            <Text style={styles.titleRegisterScreen}>Email</Text>
+            <TextInput style={styles.inputRegisterScreen}></TextInput>
+            <Text style={styles.titleRegisterScreen}>Confirmar email</Text>
+            <TextInput style={styles.inputRegisterScreen}></TextInput>
+            <Text style={styles.titleRegisterScreen}>Teléfono</Text>
+            <TextInput style={styles.inputRegisterScreen}></TextInput>
+            <Text style={styles.titleRegisterScreen}>Usuario</Text>
+            <TextInput style={styles.inputRegisterScreen}></TextInput>
+            <Text style={styles.titleRegisterScreen}>Contraseña</Text>
+            <TextInput style={styles.inputRegisterScreen}></TextInput>
+            <Text style={styles.titleRegisterScreen}>Confirmar contraseña</Text>
+            <TextInput style={styles.inputRegisterScreen}></TextInput>
+            <Button 
+                style={styles.buttonRegisterScreen} 
+                title='Registrarse'
+                onPress={() => {
+                    navigation.navigate('Home');
+                }}
+            />
         </View>
       </ScrollView>
     );
