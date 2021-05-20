@@ -33,7 +33,7 @@ export default class MisPublicaciones extends React.Component {
             
             <Text style={styles.title}> Para esta pantalla podriamos usar el componente de home y ponerle las imagenes 
             de los productos que subio este usuario. Para eso deberían estar 
-            asociadas por backend al id del usuario y agregando el "estado" de la compra (activo/vendido) abajo de cada foto</Text>
+            asociadas por backend al id del usuario y agregando el "estado" de la compra (activo/vendido) abajo de cada foto.</Text>
 
 
         </View>
