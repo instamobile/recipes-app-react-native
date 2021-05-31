@@ -37,11 +37,11 @@ export default class RecipeScreen extends React.Component {
   }
 
   renderImage = ({ item }) => (
-    <TouchableHighlight>
+    <TouchableOpacity>
       <View style={styles.imageContainer}>
         <Image style={styles.image} source={{ uri: item }} />
       </View>
-    </TouchableHighlight>
+    </TouchableOpacity>
   );
 
   onPressIngredient = item => {
@@ -95,11 +95,11 @@ export default class RecipeScreen extends React.Component {
         <View style={styles.infoRecipeContainer}>
           <Text style={styles.infoRecipeName}>{item.title}</Text>
           <View style={styles.infoContainer}>
-            <TouchableHighlight
+            <TouchableOpacity
               onPress={() => navigation.navigate('RecipesList', { category, title })}
             >
               <Text style={styles.category}>{getCategoryName(item.categoryId).toUpperCase()}</Text>
-            </TouchableHighlight>
+            </TouchableOpacity>
           </View>
 
           <View style={styles.infoContainer}>

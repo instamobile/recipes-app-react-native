@@ -74,7 +74,7 @@ export const recipes = [
       [60, '1/2 lbs'],
       [61, '1/2 liters'],
     ],
-    description: 'In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with blackberries, if desired.'
+    description: '-- In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with blackberries, if desired.'
   },
   {
     recipeId: 2,

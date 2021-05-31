@@ -50,7 +50,7 @@ const MainNavigator = createStackNavigator(
     IngredientsDetails: IngredientsDetailsScreen
   },
   {
-    initialRouteName: 'Home',
+    initialRouteName: 'Categories',
     // headerMode: 'float',
     defaulfNavigationOptions: ({ navigation }) => ({
       headerTitleStyle: {
