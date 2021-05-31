@@ -311,14 +311,15 @@ export const recipes = [
       '-- Cook noodles according to package directions; drain. Meanwhile, in a Dutch oven, cook sausage, beef and onion over medium heat 8-10 minutes or until meat is no longer pink, breaking up meat into crumbles. Add garlic; cook 1 minute. Drain. Stir in tomatoes, tomato paste, water, sugar, 3 tablespoons parsley, basil, fennel, 1/2 teaspoon salt and pepper; bring to a boil. Reduce heat; simmer, uncovered, 30 minutes, stirring occasionally. In a small bowl, mix egg, ricotta cheese, and remaining parsley and salt. Preheat oven to 375°. Spread 2 cups meat sauce into an ungreased 13x9-in. baking dish. Layer with 3 noodles and a third of the ricotta mixture. Sprinkle with 1 cup mozzarella cheese and 2 tablespoons Parmesan cheese.\n\n -- Repeat layers twice. Top with remaining meat sauce and cheeses (dish will be full). Bake, covered, 25 minutes. Bake, uncovered, 25 minutes longer or until bubbly. Let stand 15 minutes before serving.'
   },
   {
-    recipeId: 9,
-    categoryId: 5,
-    title: 'Chicken Biryani',
-    photo_url: 'https://truffle-assets.imgix.net/655ce202-862-butternutsquashcarbonara-land.jpg',
-    photosArray: [
-      'https://ak3.picdn.net/shutterstock/videos/10431533/thumb/10.jpg',
-      'https://cdn-image.foodandwine.com/sites/default/files/HD-201104-r-spaghetti-with-anchovy.jpg'
-    ],
+      recipeId: 9,
+      categoryId: 5,
+      title: 'Chicken Biryani',
+      photo_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC737wdjU-MBkLV52fNz-UBqCDGxQmBAIxhQ&usqp=CAU',
+      photosArray: [
+        'https://previews.123rf.com/images/somegirl/somegirl1509/somegirl150900048/46103208-top-view-of-a-delicious-traditional-italian-lasagna-made-with-minced-beef-bolognese-sauce-topped-wit.jpg',
+        'https://truffle-assets.imgix.net/87f324e4-YOUTUBE-NO-TXT.00_03_19_14.Imagen_fija001.jpg',
+        'https://images4.alphacoders.com/817/817350.jpg'
+      ],
     time: 120,
     ingredients: [
       [62, '1 kg'],
