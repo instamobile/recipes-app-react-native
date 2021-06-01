@@ -29,7 +29,7 @@ export const categories = [
   },
   {
     id: 6,
-    name: 'Chineese',
+    name: 'Chinese',
     photo_url: 'https://www.thespruceeats.com/thmb/X6mg_2VBCQQ2X8VrLcPTf8_4ce0=/2733x2050/smart/filters:no_upscale()/chinese-take-out-472927590-57d31fff3df78c5833464e7b.jpg'
   },
   {
@@ -37,6 +37,12 @@ export const categories = [
     name: 'MockTails',
     photo_url: 'https://www.henryford.com/-/media/henry-ford-blog/images/mobile-interior-banner-images/2019/05/mocktails-mobile-banner.jpg'
   },
+];
+
+export const video=[
+    'AYcxiROIktI',
+    "tVCYa_bnITg",
+  
 ];
 
 export const recipes = [
