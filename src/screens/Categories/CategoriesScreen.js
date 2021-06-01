@@ -8,13 +8,19 @@ import {
 } from 'react-native';
 import styles from './styles';
 import { categories } from '../../data/dataArrays';
-import { getNumberOfRecipes } from '../../data/MockDataAPI';
+import MenuImage from '../../components/MenuImage/MenuImage';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
+
 export default class CategoriesScreen extends React.Component {
-  static navigationOptions = {
-    title: 'Categories'
-  };
+  static navigationOptions  = ({ navigation }) => ({
+    title: 'Home',
+    headerLeft: () => <MenuImage
+    onPress={() => {
+      navigation.openDrawer();
+    }}
+  />
+  });
 
   constructor(props) {
     super(props);

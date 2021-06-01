@@ -1,6 +1,6 @@
 import { Text } from 'react-native';
 import React, { Component } from 'react';
-import { recipes, categories, ingredients } from './dataArrays';
+import { recipes, categories, ingredients,video } from './dataArrays';
 
 export function getCategoryById(categoryId) {
   let category;
@@ -20,6 +20,16 @@ export function getIngredientName(ingredientID) {
     }
   });
   return name;
+}
+
+export function getvideoId(videoId) {
+  let video;
+  video.map(data => {
+    if (data.videoId == videoId) {
+      video = data.video;
+    }
+  });
+  return video;
 }
 
 export function getIngredientUrl(ingredientID) {
