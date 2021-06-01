@@ -25,8 +25,6 @@
     "react-native-snap-carousel": "^3.8.0",
     "react-native-vector-icons": "^6.6.0",
     "react-native-web": "~0.13.12",
-    "react-native-webview": "^11.6.2",
-    "react-native-youtube-iframe": "^2.1.0",
     "react-navigation": "^4.3.5",
     "react-navigation-drawer": "^2.4.9",
     "react-navigation-stack": "^2.3.9",
