@@ -7,7 +7,7 @@ import {
   Image
 } from 'react-native';
 import styles from './styles';
-import { getRecipes, getCategoryName } from '../../data/MockDataAPI';
+import { getRecipes} from '../../data/MockDataAPI';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export default class RecipesListScreen extends React.Component {
@@ -30,7 +30,6 @@ export default class RecipesListScreen extends React.Component {
       <View style={styles.container}>
         <Image style={styles.photo} source={{ uri: item.photo_url }} />
         <Text style={styles.title}>{item.title}</Text>
-        <Text style={styles.category}>{getCategoryName(item.categoryId)}</Text>
       </View>
     </TouchableOpacity>
   );

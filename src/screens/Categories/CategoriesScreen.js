@@ -10,7 +10,7 @@ import styles from './styles';
 import { categories } from '../../data/dataArrays';
 import MenuImage from '../../components/MenuImage/MenuImage';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-
+import MenuButton from '../../components/MenuButton/MenuButton';
 
 export default class CategoriesScreen extends React.Component {
   static navigationOptions  = ({ navigation }) => ({
@@ -20,7 +20,7 @@ export default class CategoriesScreen extends React.Component {
       navigation.openDrawer();
     }}
   />
-  });
+});
 
   constructor(props) {
     super(props);
@@ -42,15 +42,24 @@ export default class CategoriesScreen extends React.Component {
   );
 
   render() {
+    const { navigation } = this.props;
     return (
       <View style={styles.view}>
-        <FlatList
+        <MenuButton
+            title="SEARCH"
+            source={require('../../../assets/icons/search.png')}
+            onPress={() => {
+              navigation.navigate('Search');
+            }}
+          />
+        <FlatList style={styles.flat}
         numColumns={2}
           data={categories}
           renderItem={this.renderCategory}
           keyExtractor={item => `${item.id}`}
         />
       </View>
+      
     );
   }
 }

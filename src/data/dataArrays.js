@@ -39,9 +39,14 @@ export const categories = [
   },
 ];
 
-export const video=[
-    'AYcxiROIktI',
-    "tVCYa_bnITg",
+export const videos=[
+    {
+      videoId:"EiVoWp5b93s"
+    },
+    {
+      
+      videoId:"xkpHye6H_E"
+    }
   
 ];
 
