@@ -163,7 +163,7 @@ export const recipes = [
       [0, '3 tablespoon'],
       [55, '2 breasts'],
       [75, '3'],
-      [64, '2 quarts']
+      [64, '2 quarts'],
     ],
     description:
     ' -- Beat cocoa powder, 3/4 cup butter, oil, and 2 cups sugar with an electric mixer in a large bowl until smooth. Add eggs one at a time, allowing each egg to blend into butter mixture before adding the next. Beat in vanilla extract with last egg. Mix flour mixture into egg mixture until just incorporated. Fold in walnuts, mixing just enough to evenly combine. \n\n -- Combine animal cracker crumbs, 1/3 cup sugar, and 6 tablespoons butter in a bowl; mix until well blended. Press cracker mixture into the bottom of each prepared muffin cup. Pour brownie mixture into muffin cups, filling 3/4 full. \n\n -- Bake in preheated oven until a toothpick inserted in center comes out clean, 25 to 35 minutes.'
@@ -190,7 +190,7 @@ export const recipes = [
       [33, '1/2 lb'],
       [27, '8'],
       [14, '2 teasponns'],
-      [34, '1']
+      [34, '1'],
     ],
     description:
       '-- In a medium shallow bowl, whisk together olive oil, lime juice, paprika, chili powder, cumin, and cayenne. Add cod, tossing until evenly coated. Let marinate 15 minutes. Meanwhile, make slaw: In a large bowl, whisk together mayonnaise, lime juice, cilantro, and honey. Stir in cabbage, corn, and jalapeño. Season with salt and pepper.\n\n -- In a large nonstick skillet over medium-high heat, heat vegetable oil. Remove cod from marinade and season both sides of each filet with salt and pepper. Add fish flesh side-down. Cook until opaque and cooked through, 3 to 5 minutes per side.\n\n -- Let rest 5 minutes before flaking with a fork. Assemble tacos: Serve fish over grilled tortillas with corn slaw and avocado. Squeeze lime juice on top and garnish with sour cream. '
@@ -221,7 +221,7 @@ export const recipes = [
       [27, '6'],
       [36, '4'],
       [37, '1/2'],
-      [38, '1/2']
+      [38, '1/2'],
     ],
     description:
       '-- In a large bowl, combine 2 tablespoons oil, lemon juice and seasonings; add the chicken. Turn to coat; cover. Refrigerate for 1-4 hours In a large skillet, saute peppers and onions in remaining oil until crisp-tender. Remove and keep warm. Drain chicken, discarding marinade. In the same skillet, cook chicken over medium-high heat for 5-6 minutes or until no longer pink.\n\n -- Return pepper mixture to pan; heat through. Spoon filling down the center of tortillas; fold in half. Serve with toppings as desired.'
@@ -252,7 +252,7 @@ export const recipes = [
       [12, 'for dusting'],
       [4, '1/2 teaspoons'],
       [47, '2'],
-      [46, '9 oz']
+      [46, '9 oz'],
     ],
     description:
       '-- Place a rack in upper third of oven. Place a large cast-iron skillet on rack and preheat oven to 500° (or as high as your oven will go). Place pizza dough in a large bowl, pour a little oil over, and turn to coat. Cover bowl with plastic and let dough proof at room temperature while pan and oven heat up.\n\n -- Meanwhile, cook hot sauce, marinara sauce, and butter in a medium saucepan over medium heat, stirring occasionally, until butter is melted. Stir in cream, reduce heat to low, and simmer, stirring occasionally, until slightly thickened and warmed through, about 10 minutes. Heat 1 Tbsp. oil in a large skillet over medium-high. Add chicken, toss to coat, then add ¼ cup Buffalo sauce.\n\n -- Cook chicken, tossing occasionally, until heated through, about 2 minutes. Reduce heat and simmer, stirring often, until chicken is well coated and sauce is slightly thickened, about 5 minutes. Meanwhile, whisk yogurt, lemon juice, celery salt, garlic powder, ¼ cup blue cheese, ½ tsp. pepper, and 2 Tbsp. water in a small bowl, adding more water if sauce seems too thick (it should be pourable); set aside.\n\n -- Turn out dough onto a lightly floured work surface. Shape with your hands into a round that’s slightly larger than the cast-iron skillet you’re using. Take hot skillet out of oven (watch that handle!) and place on a heatproof surface. Add a little flour to pan. Lay dough in skillet, then work edges of dough up sides of skillet with your fingertips (use a rubber spatula or wooden spoon if you’re nervous about touching the hot pan). Drizzle a little oil around inside edge of pan so that it trickles behind and underneath dough, which will encourage browning and help it release.\n\n -- Spread about ⅓ cup Buffalo sauce over dough. Arrange mozzarella over, then top with remaining ¼ cup blue cheese. Arrange chicken mixture on top. Bake pizza on top rack until crust and cheese are nicely browned, 15–20 minutes. Transfer skillet to stovetop (again, watch that handle!) and let pizza rest a few minutes. Using a spatula, slide pizza onto a cutting board or platter. Arrange celery over, then top with reserved blue cheese dressing. Season with pepper, then drizzle with oil.'
@@ -276,7 +276,7 @@ export const recipes = [
       [42, '50g'],
       [16, '3'],
       [1, '2 teaspoons'],
-      [4, '2 teaspoons']
+      [4, '2 teaspoons'],
     ],
     description:
       '-- Put the egg yolks into a bowl, finely grate in the Parmesan, season with pepper, then mix well with a fork and put to one side. Cut any hard skin off the pancetta and set aside, then chop the meat. Cook the spaghetti in a large pan of boiling salted water until al dente.\n\n -- Meanwhile, rub the pancetta skin, if you have any, all over the base of a medium frying pan (this will add fantastic flavour, or use 1 tablespoon of oil instead), then place over a medium-high heat. Peel the garlic, then crush with the palm of your hand, add it to the pan and leave it to flavour the fat for 1 minute. Stir in the pancetta, then cook for 4 minutes, or until it starts to crisp up. Pick out and discard the garlic from the pan, then, reserving some of the cooking water, drain and add the spaghetti.\n\n -- Toss well over the heat so it really soaks up all that lovely flavour, then remove the pan from the heat. Add a splash of the cooking water and toss well, season with pepper, then pour in the egg mixture – the pan will help to cook the egg gently, rather than scrambling it. Toss well, adding more cooking water until it’s lovely and glossy. Serve with a grating of Parmesan and an extra twist of pepper.'
@@ -309,7 +309,7 @@ export const recipes = [
       [16, '1 large'],
       [46, '1 pound'],
       [48, '1 cup'],
-      [57, '30 ounces']
+      [57, '30 ounces'],
     ],
     description:
       '-- Cook noodles according to package directions; drain. Meanwhile, in a Dutch oven, cook sausage, beef and onion over medium heat 8-10 minutes or until meat is no longer pink, breaking up meat into crumbles. Add garlic; cook 1 minute. Drain. Stir in tomatoes, tomato paste, water, sugar, 3 tablespoons parsley, basil, fennel, 1/2 teaspoon salt and pepper; bring to a boil. Reduce heat; simmer, uncovered, 30 minutes, stirring occasionally. In a small bowl, mix egg, ricotta cheese, and remaining parsley and salt. Preheat oven to 375°. Spread 2 cups meat sauce into an ungreased 13x9-in. baking dish. Layer with 3 noodles and a third of the ricotta mixture. Sprinkle with 1 cup mozzarella cheese and 2 tablespoons Parmesan cheese.\n\n -- Repeat layers twice. Top with remaining meat sauce and cheeses (dish will be full). Bake, covered, 25 minutes. Bake, uncovered, 25 minutes longer or until bubbly. Let stand 15 minutes before serving.'
@@ -601,7 +601,7 @@ ingredients: [
   [30, '2 teaspoons'],
   [51, '2 teaspoons']
   [1, '1 teaspoons'],
-  [73, '4']
+  [73, '4'],
 ],
 description:
   '-- Heat the oil in a small pan over medium heat, then cook the coriander, cumin, turmeric, cayenne, garam masala and paprika, stirring often, until fragrant (approximately 2-3 minutes). Let cool completely. \n\n -- Whisk the cooled spice-oil mixture into the yogurt, then mix in the lemon juice, garlic, salt and ginger. \n\n -- Cut deep slashes (to the bone) in 3-4 places on the leg/thigh pieces. Just make 2-3 cuts if you are using separate drumsticks and thighs. Coat the chicken in the marinade, cover and chill for at least an hour (preferably 6 hours), no more than 8 hours. \n\n -- Take the chicken out of the marinade and shake off the excess. You want the chicken coated, but not gloppy. Put the chicken pieces on the hot side of the grill and cover. Cook 2-3 minutes before checking. Turn the chicken so it is brown (even a little bit charred) on all sides. '
