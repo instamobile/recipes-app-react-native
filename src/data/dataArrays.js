@@ -324,7 +324,7 @@ export const recipes = [
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_pLp8bJ4G6xXc1rokcefwr06ZvoeUewqo_g&usqp=CAU',
         'https://www.spiceindiaonline.com/wp-content/uploads/2021/04/Pressure-Cooker-Chicken-Biryani-2.jpg',
       ],
-    time: 120,
+    time: '120',
     ingredients: [
       [0, '4 kg'],
       [2, '4'],
@@ -353,7 +353,7 @@ export const recipes = [
     'https://www.tasteandtellblog.com/wp-content/uploads/2019/06/Homemade-Vanilla-Ice-Cream-Recipe-tasteandtellblog.com-2.jpg',
     'https://www.theflavorbender.com/wp-content/uploads/2019/06/Homemade-Vanilla-Ice-Cream-Featured1-500x375.jpg',
   ],
-  time: 120                                                                               ,
+  time: '120',
   ingredients: [
     [55, '3/4 cup'],
     [43, '1 cup'],
@@ -363,6 +363,7 @@ export const recipes = [
   description:
     '--  Stir sugar, cream, and milk into a saucepan over low heat until sugar has dissolved. Heat just until mix is hot and a small ring of foam appears around the edge. \n\n -- Transfer cream mixture to a pourable container such as a large measuring cup. Stir in vanilla extract and chill mix thoroughly, at least 2 hours. \n\n --Pour cold ice cream mix into an ice cream maker, turn on the machine, and churn according to manufacturers directions, 20 to 25 minutes.\n\n --When ice cream is softly frozen, serve immediately or place a piece of plastic wrap directly on the ice cream and place in freezer to ripen, 2 to 3 hours. '
 },
+
 {
   recipeId: 12,
   categoryId: 2,
@@ -589,19 +590,19 @@ export const recipes = [
   title: 'Tandoori Chicken',
   photo_url: 'https://www.licious.in/blog/wp-content/uploads/2020/12/Tandoori-Chicken.jpg',
   photosArray: [
-    'hhttps://www.licious.in/blog/wp-content/uploads/2020/12/Tandoori-Chicken.jpg',
+    'https://www.licious.in/blog/wp-content/uploads/2020/12/Tandoori-Chicken.jpg',
   ],
-time: 15,
+time: '15',
 ingredients: [
   [0, '3'],
   [67, '1'],
   [31, '1'],
   [3, '1 nos'],
-  [44, '1 nos chopped']
+  [44, '1 nos chopped'],
   [30, '2 teaspoons'],
-  [51, '2 teaspoons']
+  [51, '2 teaspoons'],
   [1, '1 teaspoons'],
-  [73, '4'],
+  [73, '1 whole chicken'],
 ],
 description:
   '-- Heat the oil in a small pan over medium heat, then cook the coriander, cumin, turmeric, cayenne, garam masala and paprika, stirring often, until fragrant (approximately 2-3 minutes). Let cool completely. \n\n -- Whisk the cooled spice-oil mixture into the yogurt, then mix in the lemon juice, garlic, salt and ginger. \n\n -- Cut deep slashes (to the bone) in 3-4 places on the leg/thigh pieces. Just make 2-3 cuts if you are using separate drumsticks and thighs. Coat the chicken in the marinade, cover and chill for at least an hour (preferably 6 hours), no more than 8 hours. \n\n -- Take the chicken out of the marinade and shake off the excess. You want the chicken coated, but not gloppy. Put the chicken pieces on the hot side of the grill and cover. Cook 2-3 minutes before checking. Turn the chicken so it is brown (even a little bit charred) on all sides. '
@@ -614,7 +615,7 @@ description:
   photosArray: [
     'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/poojanadkarni/Simple_Tasty_Tandoori_Chicken_Curry.jpg'
   ],
-time: 60,
+time: '60',
 ingredients: [
   [0, '1/2'],
   [67, '1'],
@@ -639,7 +640,7 @@ description:
   photosArray: [
     'https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg'
   ],
-time: 45,
+time: '45',
 ingredients: [
   [40, '1'],
   [1, '2 teaspoons'],
@@ -658,7 +659,7 @@ description:
   photosArray: [
     'https://5.imimg.com/data5/YM/UQ/GLADMIN-27973816/veg-spring-rolls-500x500.jpg'
   ],
-time: 50,
+time: '50',
 ingredients: [
   [51, '1'],
   [30, '2 teaspoons'],
@@ -677,9 +678,9 @@ description:
   title: 'Egg Noodles',
   photo_url: 'https://static.toiimg.com/photo/52467119.cms',
   photosArray: [
-    'https://static.toiimg.com/photo/52467119.cms'
+    'https://static.toiimg.com/photo/52467119.cms',
   ],
-time: 33,
+time: '33',
 ingredients: [
   [12, '2'],
   [1, '1'],
@@ -696,9 +697,9 @@ description:
   title: 'Peanut Butter Noodles',
   photo_url: 'https://cdn.cookingcarnival.com/wp-content/uploads/2019/03/Thai-peanut-sauce-noodle.jpg',
   photosArray: [
-    'https://cdn.cookingcarnival.com/wp-content/uploads/2019/03/Thai-peanut-sauce-noodle.jpg'
+    'https://cdn.cookingcarnival.com/wp-content/uploads/2019/03/Thai-peanut-sauce-noodle.jpg',
   ],
-time: 45,
+time: '45',
 ingredients: [
   [52, '1'],
   [53, '3'],
@@ -718,9 +719,9 @@ description:
   title: 'Sweet and Sour Chicken',
   photo_url: 'https://www.averiecooks.com/wp-content/uploads/2017/01/sweetsourchicken-10-720x540.jpg',
   photosArray: [
-    'https://www.averiecooks.com/wp-content/uploads/2017/01/sweetsourchicken-10-720x540.jpg'
+    'https://www.averiecooks.com/wp-content/uploads/2017/01/sweetsourchicken-10-720x540.jpg',
   ],
-time: 60,
+time: '60',
 ingredients: [
   [55, '1'],
   [12, '1/4'],
@@ -741,9 +742,9 @@ description:
   title: 'Buttermilk',
   photo_url: 'https://www.aspicyperspective.com/wp-content/uploads/2019/10/How-To-Make-Buttermilk-15.jpg',
   photosArray: [
-    'https://www.aspicyperspective.com/wp-content/uploads/2019/10/How-To-Make-Buttermilk-15.jpg'
+    'https://www.aspicyperspective.com/wp-content/uploads/2019/10/How-To-Make-Buttermilk-15.jpg',
   ],
-time: 15,
+time: '15',
 ingredients: [
   [44, '2'],
   [18, '3'],
@@ -797,7 +798,7 @@ description:
   photosArray: [
     'https://www.galonamission.com/wp-content/uploads/2019/08/Copycat-Chipotle-Chicken-5.jpg'
   ],
-  time: 30,
+  time: '30',
   ingredients: [
     [73, '2 nos'],
     [1, '1 cup'],
@@ -819,7 +820,7 @@ description:
   photosArray: [
     'https://vaya.in/recipes/wp-content/uploads/2018/04/Italian-Chips.jpg'
   ],
-  time: 25,
+  time: '25',
   ingredients: [
     [75, '1 lb'],
     [78, '12 cup'],
