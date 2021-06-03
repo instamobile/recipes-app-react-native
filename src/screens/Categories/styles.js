@@ -13,7 +13,8 @@ const styles = StyleSheet.create({
     borderRadius: 20,
   },
   view:{
-    padding:8
+    padding:8,
+    
   },
   categoriesPhoto: {
     width: '100%',
@@ -41,6 +42,9 @@ const styles = StyleSheet.create({
   categoriesInfo: {
     marginTop: 3,
     marginBottom: 5
+  },
+  flat:{
+    marginBottom:50
   }
 });
 

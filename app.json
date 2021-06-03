@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Instafood",
-    "slug": "instafood-recipes-app",
-    "description": "React Native Recipes App Demo. Download source code for free at https://www.instamobile.io . You can also check out the Swift version at https://www.iosapptemplates.com and the Kotlin version at https://www.instakotlin.com .",
+    "name": "FOODAPP",
+    "slug": "Food-recipes-app",
+    "description": "React Native Recipes App Demo. .",
     "privacy": "public",
     "platforms": [
       "ios",
@@ -11,11 +11,11 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/splash.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "##f6f4f4"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
