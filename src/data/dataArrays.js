@@ -697,7 +697,7 @@ ingredients: [
   [74, '2'],
 ],
 description:
-'-- In a saucepan, combine rice and water. Bring to a boil. Reduce heat, cover, and simmer for 20 minutes. \n\n -- In a small saucepan, boil carrots in water about 3 to 5 minutes. Drop peas into boiling water, and drain. \n\n -- Heat wok over high heat. Pour in oil, then stir in carrots and peas; cook about 30 seconds. Crack in eggs, stirring quickly to scramble eggs with vegetables. Stir in cooked rice. Shake in soy sauce, and toss rice to coat. Drizzle with sesame oil, and toss again.'
+'-- In a saucepan, combine rice and water. Bring to a boil. Reduce heat, cover, and simmer for 20 minutes. \n\n -- In a small saucepan, boil carrots in water about 3 to 5 minutes. Drop peas into boiling water, and drain. \n\n -- Heat wok over high heat. Pour in oil, then stir in carrots and peas; cook about 30 seconds. Stir in cooked rice. Shake in soy sauce, and toss rice to coat. Drizzle with sesame oil, and toss again.'
 },
 {
   recipeId: 26,
@@ -898,13 +898,162 @@ description:
     [43, '3/4'], 
     ],
     description:
-    ' -- In a large bowl, cream together the shortening, white sugar and brown sugar. Combine the flour, baking powder, baking soda and salt; stir into the batter until well blended. Mix in the cream, coconut until evenly distributed. Roll dough into walnut sized balls and place 2 inches apart onto prepared cookie sheets. \n\n -- Bake for 12 minutes in the preheated oven, or until edges are lightly browned.',
+    ' -- In a large bowl, cream together the shortening, white sugar and brown sugar. Combine the flour, baking powder, baking soda and salt; stir into the batter until well blended. Mix in the cream, coconut until evenly distributed. Roll dough into walnut sized balls and place 2 inches apart onto prepared cookie sheets. \n\n -- Bake for 12 minutes in the preheated oven, or until edges are lightly browned.'
+},
+{
+  recipeId: 36,
+  categoryId: 3,
+  title: 'Chocolate Cookies',
+  photo_url:
+    'https://www.purelykaylie.com/wp-content/uploads/2021/02/Vegan-Double-Chocolate-Chip-Cookies-12.jpg',
+  photosArray: [
+    'https://www.purelykaylie.com/wp-content/uploads/2021/02/Vegan-Double-Chocolate-Chip-Cookies-12.jpg',
+  ],
+  time: '25',
+    ingredients: [
+    [55, '1'], 
+    [75, '1g'], 
+    [64, '1/2'],
+    [12, '1'], 
+    [79, '1/2'], 
+    [80, '1/2'],
+    [1, '1/2'], 
+    [68, '3/4'], 
+    ],
+    description:
+    ' -- In a large bowl, cream together the shortening, white sugar and brown sugar. Combine the flour, baking powder, baking soda and salt; stir into the batter until well blended. Mix in the cream, cocoa powder until evenly distributed. Roll dough into walnut sized balls and place 2 inches apart onto prepared cookie sheets. \n\n -- Bake for 12 minutes in the preheated oven, or until edges are lightly browned.'
+  },
+  {
+    recipeId: 37,
+    categoryId: 5,
+    title: 'Sweet Buttermilk',
+    photo_url: 'https://cdn2.foodviva.com/static-content/food-images/punjabi-recipes/sweet-lassi/sweet-lassi.jpg',
+    photosArray: [
+      'https://cdn2.foodviva.com/static-content/food-images/punjabi-recipes/sweet-lassi/sweet-lassi.jpg',
+    ],
+  time: '15',
+  ingredients: [
+    [44, '2'],
+    [18, '3'],
+    [55, '4 nos'],
+  ],
+  description:
+  ' -- In a blender, blend the yogurt, ice, water and sugar until mixture becomes frothy. Pour mixture over ice cubes in tall glasses.',
+  },
+  {
+    recipeId: 38,
+    categoryId: 7,
+    title: 'Kiwi Mojito',
+    photo_url:
+      'https://ameessavorydish.com/wp-content/uploads/2012/03/Kiwi-skinny-mojito-feature.jpg',
+    photosArray: [
+      'https://ameessavorydish.com/wp-content/uploads/2012/03/Kiwi-skinny-mojito-feature.jpg'
+    ],
+    time: '10',
+    ingredients: [
+      [55, '1 cup'],
+      [83, '1'],
+      [69, '1/2'],
+      [30, '2 nos'],
+      [18, '1 cup'],
+      [70, '2cup'],
+    ],
+    description: '-- Pour 1/4 to 1/2 inch of sugar onto a small, shallow plate. Run one of the lime quarters around the rim of each cocktail glass, then dip the glasses into the sugar to rim; set aside. \n\n -- Squeeze all of the lime quarters into a sturdy glass pitcher. Toss the juiced limes into the pitcher along with the mint, Kiwi, and 1 cup of sugar. Crush the fruits together with a muddler to release the juices from the Kiwi and the oil from the mint leaves. Stir in the club soda until the sugar has dissolved. Pour into the sugared glasses over ice cubes to serve.'
+  },
+  {
+    recipeId: 39,
+    categoryId: 6,
+    title: 'Egg Fried Rice',
+    photo_url: 'https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg',
+    photosArray: [
+      'https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg'
+    ],
+  time: '45',
+  ingredients: [
+    [40, '1'],
+    [1, '2 teaspoons'],
+    [75, '2'],
+    [18, '4 teaspoons'],
+    [74, '2'],
+    [75, '2'],
+
+  ],
+  description:
+  '-- In a saucepan, combine rice and water. Bring to a boil. Reduce heat, cover, and simmer for 20 minutes. \n\n -- In a small saucepan, boil carrots in water about 3 to 5 minutes. Drop peas into boiling water, and drain. \n\n -- Heat wok over high heat. Pour in oil, then stir in carrots, eggs and peas; cook about 30 seconds. Crack in eggs, stirring quickly to scramble eggs with vegetables. Stir in cooked rice. Shake in soy sauce, and toss rice to coat. Drizzle with sesame oil, and toss again.'
+  },  
+  {
+    recipeId: 40,
+    categoryId: 4,
+    title: 'Blueberry Smoothie',
+    photo_url:
+      'https://www.thespruceeats.com/thmb/82w_yFQIMv1DOLKcG2mLX5ofKmk=/2943x2207/smart/filters:no_upscale()/blueberry-smoothie-2238438-16_Hero_1-0901a8305220460da963ef7b210629ea.jpg',
+    photosArray: [
+      'https://www.thespruceeats.com/thmb/82w_yFQIMv1DOLKcG2mLX5ofKmk=/2943x2207/smart/filters:no_upscale()/blueberry-smoothie-2238438-16_Hero_1-0901a8305220460da963ef7b210629ea.jpg',
+    ],
+    time: '10',
+    ingredients: [
+      [59, '1'],
+      [71, '1/2 lbs'],
+      [61, '1/2 liters'],
+    ],
+    description: '-- In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with chocolates, if desired.'
+  },  
+  {
+    recipeId: 41,
+    categoryId: 2,
+    title: 'Chicken Pasta',
+    photo_url: 'https://i.ndtvimg.com/i/2017-08/spicy-chicken-pasta_650x400_81503903192.jpg',
+    photosArray: [
+      'https://i.ndtvimg.com/i/2017-08/spicy-chicken-pasta_650x400_81503903192.jpg',
+    ],
+    time: 10                                                                               ,
+    ingredients: [
+      [51, '3'],
+      [42, '2 tbsp'],
+      [63, '2 cups'],
+      [64, '2 tsp'],
+      [65, '2 cup'],
+      [12, '3 cups'],
+      [4, '1/2 tsp'],
+      [1, '1/2 tbsp'],
+      [18, '6 cups'],
+      [35, '1/2 tsp'],
+      [45, '1'],
+      [73, '1'],
+    ],
+    description:
+      '-- firstly, in a large kadai boil 6 cup water and 1 tsp salt. once the water comes to a boil, add 2 cup pasta. boil for 7 minutes, or until the pasta is cooked al dente. \n\n --drain off the pasta and keep aside. in a frying pan, heat 2 tbsp oil and saute 3 clove garlic with chicken. add ½ onion, ½ carrot, ½ capsicum and 3 tbsp sweet corn. saute for a minute or until vegetables and chicken shrink slightly yet remain crunchy. further, add ½ tsp pepper and ½ tsp salt. saute well until the spices are well combined. keep aside. to prepare white sauce for pasta, heat 2 tbsp butter. add 3 tbsp maida and saute on low flame. \n\n -- saute until the maida turns aromatic yet do not change its colour. now add 1 cup milk and mix well. mix until the sauce thickens without forming any lumps. further, add 1 more cup of milk and continue to stir continuously. mix continuously, until the sauce thickens. if required using a whisk break the lumps. cook until the sauce turns silk smooth and creamy texture. now add ½ tsp pepper, ½ tsp chilli flakes, ½ tsp mixed herbs and ½ tsp salt. mix well making sure everything is well combined. add in sauted vegetables and chicken, and combine well. now add in boiled pasta and mix gently. add 2 tbsp of boiled pasta water if the sauce thickens. mix gently making sure everything is well combined. '
+  },
+  {
+    recipeId: 42,
+    categoryId: 1,
+    title: 'Chicken Bruschetta',
+    photo_url: 'https://i.pinimg.com/originals/5e/dc/7e/5edc7ec0ad76810bad15f261beb25093.jpg',
+    photosArray: [
+      'https://i.pinimg.com/originals/5e/dc/7e/5edc7ec0ad76810bad15f261beb25093.jpg',
+    ],
+    time: 15,
+    ingredients: [
+      [23, '8 nos'],
+      [10, '1/2 cup'],
+      [48, '1/4 cup'],
+      [2, '5 nos'],
+      [0, '1 tbsp'],
+      [1, '1/4 tbsp'],
+      [4, '1/4 tsp'],
+      [7, '1 loaf'],
+      [73, '1'],
+    ],
+    description:
+      '-- In a bowl, toss together the tomatoes, basil, Parmesan cheese, chicken(chopped) and garlic. Mix in the balsamic vinegar, olive oil, kosher salt, and pepper. Serve on toasted  slices.',
       videoSeries : [
+
         "95BCU1n268w",
         "oiEH4z_EoDw",
         "XTM0wwIGXfY",
         "VZsgMLQUJlM",
       ]
+
 
   },
 ];
