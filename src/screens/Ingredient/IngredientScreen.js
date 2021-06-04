@@ -18,7 +18,11 @@ import {
 export default class IngredientScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
-      title: navigation.getParam('name')
+      title: navigation.getParam('name'),
+      headerTintColor: 'black',
+      headerStyle: {
+         backgroundColor: '#A882C1'
+      },
     };
   };
 

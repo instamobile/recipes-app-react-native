@@ -11,10 +11,15 @@ import { categories } from '../../data/dataArrays';
 import MenuImage from '../../components/MenuImage/MenuImage';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import MenuButton from '../../components/MenuButton/MenuButton';
+import { HeaderBackground } from 'react-navigation-stack';
 
 export default class CategoriesScreen extends React.Component {
   static navigationOptions  = ({ navigation }) => ({
     title: 'Home',
+    headerTintColor: 'black',
+      headerStyle: {
+         backgroundColor: '#A882C1'
+      },
     headerLeft: () => <MenuImage
     onPress={() => {
       navigation.openDrawer();
@@ -45,13 +50,6 @@ export default class CategoriesScreen extends React.Component {
     const { navigation } = this.props;
     return (
       <View style={styles.view}>
-        <MenuButton
-            title="SEARCH"
-            source={require('../../../assets/icons/search.png')}
-            onPress={() => {
-              navigation.navigate('Search');
-            }}
-          />
         <FlatList style={styles.flat}
         numColumns={2}
           data={categories}
