@@ -1,4 +1,5 @@
 import React from "react";
+
 import { ImageBackground, ScrollView, StyleSheet, Text, View, Image } from "react-native";
 
 const AboutUs = () => (
@@ -89,3 +90,4 @@ const styles = StyleSheet.create({
 })
 
 //we land in the HomeScreen as soon as we open the app ,where we can look at different cuisines,as we select the required cuisine it navigates us to Recipe Screen where we have a set of intructions on how to cook that particular dish.
+
