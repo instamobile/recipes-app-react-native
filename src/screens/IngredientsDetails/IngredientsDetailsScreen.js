@@ -17,6 +17,10 @@ export default class IngredientsDetailsScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
       title: navigation.getParam('title'),
+      headerTintColor: 'black',
+      headerStyle: {
+         backgroundColor: '#A882C1'
+      },
       headerTitleStyle: {
         fontSize: 16
       }

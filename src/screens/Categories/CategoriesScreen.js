@@ -11,10 +11,15 @@ import { categories } from '../../data/dataArrays';
 import MenuImage from '../../components/MenuImage/MenuImage';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import MenuButton from '../../components/MenuButton/MenuButton';
+import { HeaderBackground } from 'react-navigation-stack';
 
 export default class CategoriesScreen extends React.Component {
   static navigationOptions  = ({ navigation }) => ({
     title: 'Home',
+    headerTintColor: 'black',
+      headerStyle: {
+         backgroundColor: '#A882C1'
+      },
     headerLeft: () => <MenuImage
     onPress={() => {
       navigation.openDrawer();
