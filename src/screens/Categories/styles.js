@@ -8,13 +8,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     height: 215,
     width:170,
-    borderColor: '#cccccc',
+    borderColor: '#000000',
     borderWidth: 0.5,
     borderRadius: 20,
   },
   view:{
     padding:8,
-    
+    backgroundColor:'#F4F3F4'
   },
   categoriesPhoto: {
     width: '100%',
