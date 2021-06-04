@@ -14,6 +14,7 @@ import Carousel, { Pagination } from 'react-native-snap-carousel';
 import { getIngredientName, getCategoryName, getCategoryById } from '../../data/MockDataAPI';
 import BackButton from '../../components/BackButton/BackButton';
 import ViewIngredientsButton from '../../components/ViewIngredientsButton/ViewIngredientsButton';
+import VideoButton from '../../components/VideoButton/VideoButton'
 
 const { width: viewportWidth } = Dimensions.get('window');
 
@@ -120,13 +121,14 @@ export default class RecipeScreen extends React.Component {
               }}
             />
           </View>
+          <View> 
+            <VideoButton
+            onPress={() => navigation.navigate('videoscreen',{item})}>
+          </VideoButton>
+          </View>
           <View style={styles.infoContainer}>
             <Text style={styles.infoDescriptionRecipe}>{item.description}</Text>
           </View>
-          <Button
-            title='video'
-            onPress={() => navigation.navigate('videoscreen',{item})}
-          />
         </View>
       </ScrollView>
     );
