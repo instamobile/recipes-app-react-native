@@ -388,6 +388,12 @@ export const recipes = [
       [73, '3 teaspoons'],
       [62, '1 teaspoons'],
     ],
+    videoSeries : [
+      "95BCU1n268w",
+      "oiEH4z_EoDw",
+      "XTM0wwIGXfY",
+      "VZsgMLQUJlM",
+    ],
     description:
     'In a large skillet, in 2 tablespoons vegetable oil (or ghee) fry potatoes until brown, drain and reserve the potatoes. Add remaining 2 tablespoons oil to the skillet and fry onion, garlic and ginger until onion is soft and golden. Add chili, pepper, turmeric, cumin, salt and the tomatoes. Fry, stirring constantly for 5 minutes. Add yogurt, mint, cardamom and cinnamon stick. Cover and cook over low heat, stirring occasionally until the tomatoes are cooked to a pulp. It may be necessary to add a little hot water if the mixture becomes too dry and starts to stick to the pan. \n\n -- When the mixture is thick and smooth, add the chicken pieces and stir well to coat them with the spice mixture. Cover and cook over very low heat until the chicken is tender, approximately 35 to 45 minutes. There should only be a little very thick gravy left when chicken is finished cooking. If necessary cook uncovered for a few minutes to reduce the gravy. \n\n -- In a large skillet, heat vegetable oil (or ghee) and fry the onions until they are golden. Add saffron, cardamom, cloves, cinnamon stick, ginger and rice. Stir continuously until the rice is coated with the spices. \n\n -- In a medium-size pot, heat the chicken stock and salt. When the mixture is hot pour it over the rice and stir well. Add the chicken mixture and the potatoes; gently mix them into the rice. Bring to boil. Cover the saucepan tightly, turn heat to very low and steam for 20 minutes. Do not lift lid or stir while cooking. Spoon biryani onto a warm serving dish.',
   },
@@ -409,9 +415,13 @@ export const recipes = [
     [64, '2 tsp'],
   ],
   description:
-    '--  Stir sugar, cream, and milk into a saucepan over low heat until sugar has dissolved. Heat just until mix is hot and a small ring of foam appears around the edge. \n\n -- Transfer cream mixture to a pourable container such as a large measuring cup. Stir in vanilla extract and chill mix thoroughly, at least 2 hours. \n\n --Pour cold ice cream mix into an ice cream maker, turn on the machine, and churn according to manufacturers directions, 20 to 25 minutes.\n\n --When ice cream is softly frozen, serve immediately or place a piece of plastic wrap directly on the ice cream and place in freezer to ripen, 2 to 3 hours. '
+    '--  Stir sugar, cream, and milk into a saucepan over low heat until sugar has dissolved. Heat just until mix is hot and a small ring of foam appears around the edge. \n\n -- Transfer cream mixture to a pourable container such as a large measuring cup. Stir in vanilla extract and chill mix thoroughly, at least 2 hours. \n\n --Pour cold ice cream mix into an ice cream maker, turn on the machine, and churn according to manufacturers directions, 20 to 25 minutes.\n\n --When ice cream is softly frozen, serve immediately or place a piece of plastic wrap directly on the ice cream and place in freezer to ripen, 2 to 3 hours. ',
+videoSeries : [
+  "OvXDCzs5ZSE",
+  "U_xVoZFZTBs",
+  "NZft7w32oOk",
+],
 },
-
 {
   recipeId: 12,
   categoryId: 2,
@@ -437,8 +447,13 @@ export const recipes = [
     [45, '1'],
   ],
   description:
-    '-- firstly, in a large kadai boil 6 cup water and 1 tsp salt. once the water comes to a boil, add 2 cup pasta. boil for 7 minutes, or until the pasta is cooked al dente. \n\n --drain off the pasta and keep aside. in a frying pan, heat 2 tbsp oil and saute 3 clove garlic. add ½ onion, ½ carrot, ½ capsicum and 3 tbsp sweet corn. saute for a minute or until vegetables shrink slightly yet remain crunchy. further, add ½ tsp pepper and ½ tsp salt. saute well until the spices are well combined. keep aside. to prepare white sauce for pasta, heat 2 tbsp butter. add 3 tbsp maida and saute on low flame. \n\n -- saute until the maida turns aromatic yet do not change its colour. now add 1 cup milk and mix well. mix until the sauce thickens without forming any lumps. further, add 1 more cup of milk and continue to stir continuously. mix continuously, until the sauce thickens. if required using a whisk break the lumps. cook until the sauce turns silk smooth and creamy texture. now add ½ tsp pepper, ½ tsp chilli flakes, ½ tsp mixed herbs and ½ tsp salt. mix well making sure everything is well combined. add in sauted vegetables and combine well. now add in boiled pasta and mix gently. add 2 tbsp of boiled pasta water if the sauce thickens. mix gently making sure everything is well combined. '
-},
+    '-- firstly, in a large kadai boil 6 cup water and 1 tsp salt. once the water comes to a boil, add 2 cup pasta. boil for 7 minutes, or until the pasta is cooked al dente. \n\n --drain off the pasta and keep aside. in a frying pan, heat 2 tbsp oil and saute 3 clove garlic. add ½ onion, ½ carrot, ½ capsicum and 3 tbsp sweet corn. saute for a minute or until vegetables shrink slightly yet remain crunchy. further, add ½ tsp pepper and ½ tsp salt. saute well until the spices are well combined. keep aside. to prepare white sauce for pasta, heat 2 tbsp butter. add 3 tbsp maida and saute on low flame. \n\n -- saute until the maida turns aromatic yet do not change its colour. now add 1 cup milk and mix well. mix until the sauce thickens without forming any lumps. further, add 1 more cup of milk and continue to stir continuously. mix continuously, until the sauce thickens. if required using a whisk break the lumps. cook until the sauce turns silk smooth and creamy texture. now add ½ tsp pepper, ½ tsp chilli flakes, ½ tsp mixed herbs and ½ tsp salt. mix well making sure everything is well combined. add in sauted vegetables and combine well. now add in boiled pasta and mix gently. add 2 tbsp of boiled pasta water if the sauce thickens. mix gently making sure everything is well combined. ',
+    videoSeries : [
+      "6CFJhTKcGJ4",
+      "8hEz4FNOXFw",
+      "0K-RfLvjYGc",
+    ],
+    },
 {
   recipeId: 13,
   categoryId: 1,
@@ -461,7 +476,12 @@ export const recipes = [
     [7, '1 loaf'],
   ],
   description:
-    '-- In a bowl, toss together the tomatoes, basil, Parmesan cheese, and garlic. Mix in the balsamic vinegar, olive oil, kosher salt, and pepper. Serve on toasted  slices.'
+    '-- In a bowl, toss together the tomatoes, basil, Parmesan cheese, and garlic. Mix in the balsamic vinegar, olive oil, kosher salt, and pepper. Serve on toasted  slices.',
+    videoSeries : [
+      "WogjIqxsz4Y",
+      "eK_UEIvnQ0U",
+      "_mVw3XfMIvA",
+    ],
 },
 {
   recipeId: 14,
@@ -490,8 +510,13 @@ export const recipes = [
     [22, '1 nos'],
   ],
   description:
-    '-- Heat a skillet over medium-high heat. Add cooking oil and then garlic, jalapenos, onions, and a bit of salt to heated oil. Saute until softened, ~3 minutes. \n\n -- Next add in ground meat and break up with a wooden spoon. Saute until broken up into smaller pieces, 4 to 6 minutes. Add in crushed tomatoes and tomato paste and cook for another 3 to 5 minutes until meat is cooked through. Season to taste with salt, pepper and any of the spices. \n\n -- Slice lime into wedges. Spread out your taco bar – taco shells, meat filling, lettuce, cheese, sour cream, lime wedges, and salsa. Let everyone assemble their own tacos!'
-},
+    '-- Heat a skillet over medium-high heat. Add cooking oil and then garlic, jalapenos, onions, and a bit of salt to heated oil. Saute until softened, ~3 minutes. \n\n -- Next add in ground meat and break up with a wooden spoon. Saute until broken up into smaller pieces, 4 to 6 minutes. Add in crushed tomatoes and tomato paste and cook for another 3 to 5 minutes until meat is cooked through. Season to taste with salt, pepper and any of the spices. \n\n -- Slice lime into wedges. Spread out your taco bar – taco shells, meat filling, lettuce, cheese, sour cream, lime wedges, and salsa. Let everyone assemble their own tacos!',
+    videoSeries : [
+      "JSrTAjLqSBk",
+      "EWybgxVf1f0",
+      "q17929sNvcI",
+    ],
+  },
 {
   recipeId: 15,
   categoryId: 4,
@@ -508,8 +533,13 @@ export const recipes = [
     [68, '2 tsp'],
   ],
   description:
-    '--  Stir sugar, cream, and milk into a saucepan over low heat until sugar has dissolved. Heat just until mix is hot and a small ring of foam appears around the edge. \n\n -- Transfer cream mixture to a pourable container such as a large measuring cup. Stir in cocoa powder and chill mix thoroughly, at least 2 hours. \n\n --Pour cold ice cream mix into an ice cream maker, turn on the machine, and churn according to manufacturer directions, 20 to 25 minutes.\n\n --When ice cream is softly frozen, serve immediately or place a piece of plastic wrap directly on the ice cream and place in freezer to ripen, 2 to 3 hours. '
-},
+    '--  Stir sugar, cream, and milk into a saucepan over low heat until sugar has dissolved. Heat just until mix is hot and a small ring of foam appears around the edge. \n\n -- Transfer cream mixture to a pourable container such as a large measuring cup. Stir in cocoa powder and chill mix thoroughly, at least 2 hours. \n\n --Pour cold ice cream mix into an ice cream maker, turn on the machine, and churn according to manufacturer directions, 20 to 25 minutes.\n\n --When ice cream is softly frozen, serve immediately or place a piece of plastic wrap directly on the ice cream and place in freezer to ripen, 2 to 3 hours. ',
+    videoSeries : [
+      "_ylEb8ARslE",
+      "4rsLIcl7sW4",
+      "fI0jFZ7gI4g",
+    ],
+  },
 {
   recipeId: 16,
   categoryId: 4,
@@ -525,7 +555,10 @@ export const recipes = [
     [68, '1/2 lbs'],
     [61, '1/2 liters'],
   ],
-  description: '-- In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with chocolates, if desired.'
+  description: '-- In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with chocolates, if desired.',
+  videoSeries : [
+    "h7QtBtOO0vQ",
+    "ws5gMmYlinU",],
 },
 {
   recipeId: 17,
@@ -552,6 +585,10 @@ export const recipes = [
   ],
   description:
   'In a large skillet, in 2 tablespoons vegetable oil (or ghee) fry potatoes until brown, drain and reserve the potatoes. Add remaining 2 tablespoons oil to the skillet and fry onion, garlic and ginger until onion is soft and golden. Add chili, pepper, turmeric, cumin, salt and the tomatoes. Fry, stirring constantly for 5 minutes. Add yogurt, mint, cardamom and cinnamon stick. Cover and cook over low heat, stirring occasionally until the tomatoes are cooked to a pulp. It may be necessary to add a little hot water if the mixture becomes too dry and starts to stick to the pan. \n\n -- When the mixture is thick and smooth, add the veggies and stir well to coat them with the spice mixture. Cover and cook over very low heat, approximately 35 to 45 minutes. There should only be a little very thick gravy left when it is finished cooking. If necessary cook uncovered for a few minutes to reduce the gravy. \n\n -- In a large skillet, heat vegetable oil (or ghee) and fry the onions until they are golden. Add saffron, cardamom, cloves, cinnamon stick, ginger and rice. Stir continuously until the rice is coated with the spices. \n\n -- In a medium-size pot, heat the vegetable stock and salt. When the mixture is hot pour it over the rice and stir well. Add the vegetable mixture and the potatoes; gently mix them into the rice. Bring to boil. Cover the saucepan tightly, turn heat to very low and steam for 20 minutes. Do not lift lid or stir while cooking. Spoon biryani onto a warm serving dish.',
+  videoSeries : [
+    "SZByh7nXp1U",
+    "S5Ngh6CFRmc",
+  ],
 },
 {
   recipeId: 18,
@@ -571,7 +608,11 @@ export const recipes = [
     [18, '1 cup'],
     [70, '2cup'],
   ],
-  description: '-- Pour 1/4 to 1/2 inch of sugar onto a small, shallow plate. Run one of the lime quarters around the rim of each cocktail glass, then dip the glasses into the sugar to rim; set aside. \n\n -- Squeeze all of the lime quarters into a sturdy glass pitcher. Toss the juiced limes into the pitcher along with the mint, strawberries, and 1 cup of sugar. Crush the fruits together with a muddler to release the juices from the strawberries and the oil from the mint leaves. Stir in the club soda until the sugar has dissolved. Pour into the sugared glasses over ice cubes to serve.'
+  description: '-- Pour 1/4 to 1/2 inch of sugar onto a small, shallow plate. Run one of the lime quarters around the rim of each cocktail glass, then dip the glasses into the sugar to rim; set aside. \n\n -- Squeeze all of the lime quarters into a sturdy glass pitcher. Toss the juiced limes into the pitcher along with the mint, strawberries, and 1 cup of sugar. Crush the fruits together with a muddler to release the juices from the strawberries and the oil from the mint leaves. Stir in the club soda until the sugar has dissolved. Pour into the sugared glasses over ice cubes to serve.',
+  videoSeries : [
+    "hqZdB-ziP2U",
+    "Gmt-8zdlNoM",
+  ],
 },
 {
   recipeId: 19,
@@ -590,7 +631,11 @@ export const recipes = [
     [18, '1 cup'],
     [70, '2cup'],
   ],
-  description: '-- Pour 1/4 to 1/2 inch of sugar onto a small, shallow plate. Run one of the lime quarters around the rim of each cocktail glass, then dip the glasses into the sugar to rim; set aside. \n\n -- Squeeze all of the lime quarters into a sturdy glass pitcher. Toss the juiced limes into the pitcher along with the mint and 1 cup of sugar. Crush the fruits together with a muddler to release the oil from the mint leaves. Stir in the club soda until the sugar has dissolved. Pour into the sugared glasses over ice cubes to serve.'
+  description: '-- Pour 1/4 to 1/2 inch of sugar onto a small, shallow plate. Run one of the lime quarters around the rim of each cocktail glass, then dip the glasses into the sugar to rim; set aside. \n\n -- Squeeze all of the lime quarters into a sturdy glass pitcher. Toss the juiced limes into the pitcher along with the mint and 1 cup of sugar. Crush the fruits together with a muddler to release the oil from the mint leaves. Stir in the club soda until the sugar has dissolved. Pour into the sugared glasses over ice cubes to serve.',
+  videoSeries : [
+    "XqtxQVCz8nk",
+    "Dl4RHpoyBhc",
+  ],
 },
 {
   recipeId: 20,
@@ -610,7 +655,11 @@ export const recipes = [
     [18, '1 cup'],
     [70, '2cup'],
   ],
-  description: '-- Pour 1/4 to 1/2 inch of sugar onto a small, shallow plate. Run one of the lime quarters around the rim of each cocktail glass, then dip the glasses into the sugar to rim; set aside. \n\n -- Squeeze all of the lime quarters into a sturdy glass pitcher. Toss the juiced limes into the pitcher along with the mint, blueberries, and 1 cup of sugar. Crush the fruits together with a muddler to release the juices from the blueberries and the oil from the mint leaves. Stir in the club soda until the sugar has dissolved. Pour into the sugared glasses over ice cubes to serve.'
+  description: '-- Pour 1/4 to 1/2 inch of sugar onto a small, shallow plate. Run one of the lime quarters around the rim of each cocktail glass, then dip the glasses into the sugar to rim; set aside. \n\n -- Squeeze all of the lime quarters into a sturdy glass pitcher. Toss the juiced limes into the pitcher along with the mint, blueberries, and 1 cup of sugar. Crush the fruits together with a muddler to release the juices from the blueberries and the oil from the mint leaves. Stir in the club soda until the sugar has dissolved. Pour into the sugared glasses over ice cubes to serve.',
+  videoSeries : [
+    "XAHWMCuoyGA",
+    "vIJSIBZ7pbs",
+  ],
 },
 {
   recipeId: 21,
@@ -630,7 +679,11 @@ export const recipes = [
     [18, '1 cup'],
     [70, '2cup'],
   ],
-  description: '-- Pour 1/4 to 1/2 inch of sugar onto a small, shallow plate. Run one of the lime quarters around the rim of each cocktail glass, then dip the glasses into the sugar to rim; set aside. \n\n -- Squeeze all of the lime quarters into a sturdy glass pitcher. Toss the juiced limes into the pitcher along with the mint, Orange, and 1 cup of sugar. Crush the fruits together with a muddler to release the juices from the Oranges and the oil from the mint leaves. Stir in the club soda until the sugar has dissolved. Pour into the sugared glasses over ice cubes to serve.'
+  description: '-- Pour 1/4 to 1/2 inch of sugar onto a small, shallow plate. Run one of the lime quarters around the rim of each cocktail glass, then dip the glasses into the sugar to rim; set aside. \n\n -- Squeeze all of the lime quarters into a sturdy glass pitcher. Toss the juiced limes into the pitcher along with the mint, Orange, and 1 cup of sugar. Crush the fruits together with a muddler to release the juices from the Oranges and the oil from the mint leaves. Stir in the club soda until the sugar has dissolved. Pour into the sugared glasses over ice cubes to serve.',
+  videoSeries : [
+    "-XkL4zRCmtA",
+    "QQ6lvcMmp2Q",
+  ],
 },
 {
   recipeId: 22,
@@ -653,7 +706,11 @@ ingredients: [
   [73, '1 whole chicken'],
 ],
 description:
-  '-- Heat the oil in a small pan over medium heat, then cook the coriander, cumin, turmeric, cayenne, garam masala and paprika, stirring often, until fragrant (approximately 2-3 minutes). Let cool completely. \n\n -- Whisk the cooled spice-oil mixture into the yogurt, then mix in the lemon juice, garlic, salt and ginger. \n\n -- Cut deep slashes (to the bone) in 3-4 places on the leg/thigh pieces. Just make 2-3 cuts if you are using separate drumsticks and thighs. Coat the chicken in the marinade, cover and chill for at least an hour (preferably 6 hours), no more than 8 hours. \n\n -- Take the chicken out of the marinade and shake off the excess. You want the chicken coated, but not gloppy. Put the chicken pieces on the hot side of the grill and cover. Cook 2-3 minutes before checking. Turn the chicken so it is brown (even a little bit charred) on all sides. '
+  '-- Heat the oil in a small pan over medium heat, then cook the coriander, cumin, turmeric, cayenne, garam masala and paprika, stirring often, until fragrant (approximately 2-3 minutes). Let cool completely. \n\n -- Whisk the cooled spice-oil mixture into the yogurt, then mix in the lemon juice, garlic, salt and ginger. \n\n -- Cut deep slashes (to the bone) in 3-4 places on the leg/thigh pieces. Just make 2-3 cuts if you are using separate drumsticks and thighs. Coat the chicken in the marinade, cover and chill for at least an hour (preferably 6 hours), no more than 8 hours. \n\n -- Take the chicken out of the marinade and shake off the excess. You want the chicken coated, but not gloppy. Put the chicken pieces on the hot side of the grill and cover. Cook 2-3 minutes before checking. Turn the chicken so it is brown (even a little bit charred) on all sides. ',
+  videoSeries : [
+    "Uz-b7mCPyfI",
+    "-CKvt1KNU74",
+  ],
 },
 {
   recipeId: 24,
@@ -678,7 +735,12 @@ ingredients: [
   [23, '1'],
 ],
 description:
-  '-- Heat the oil in a large skillet over high heat; partially cook the chicken in the hot oil in batches until completely browned. Transfer the browned chicken breasts to a plate and set aside. \n\n -- Reduce the heat under the skillet to medium-high; add the onion, garlic, and ginger to the oil remaining in the skillet and cook and stir until the onion turns translucent, about 8 minutes. Stir the curry powder, cumin, turmeric, coriander, cayenne, and 1 tablespoon of water into the onion mixture; allow to heat together for about 1 minute while stirring. Mix the tomatoes, yogurt, 1 tablespoon chopped cilantro, and 1 teaspoon salt into the mixture. Return the chicken breast to the skillet along with any juices on the plate. Pour 1/2 cup water into the mixture; bring to a boil, turning the chicken to coat with the sauce. Sprinkle the garam masala and 1 tablespoon cilantro over the chicken. \n\n -- Cover the skillet and simmer until the chicken breasts are no longer pink in the center and the juices run clear, about 20 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C). Sprinkle with lemon juice to serve.'
+  '-- Heat the oil in a large skillet over high heat; partially cook the chicken in the hot oil in batches until completely browned. Transfer the browned chicken breasts to a plate and set aside. \n\n -- Reduce the heat under the skillet to medium-high; add the onion, garlic, and ginger to the oil remaining in the skillet and cook and stir until the onion turns translucent, about 8 minutes. Stir the curry powder, cumin, turmeric, coriander, cayenne, and 1 tablespoon of water into the onion mixture; allow to heat together for about 1 minute while stirring. Mix the tomatoes, yogurt, 1 tablespoon chopped cilantro, and 1 teaspoon salt into the mixture. Return the chicken breast to the skillet along with any juices on the plate. Pour 1/2 cup water into the mixture; bring to a boil, turning the chicken to coat with the sauce. Sprinkle the garam masala and 1 tablespoon cilantro over the chicken. \n\n -- Cover the skillet and simmer until the chicken breasts are no longer pink in the center and the juices run clear, about 20 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C). Sprinkle with lemon juice to serve.',
+  videoSeries : [
+    "jwyge5daKUQ",
+    "kD_SZKhwDuU",
+    "OY-UNBmlUf8",
+  ],
 },
 {
   recipeId: 25,
@@ -697,7 +759,11 @@ ingredients: [
   [74, '2'],
 ],
 description:
-'-- In a saucepan, combine rice and water. Bring to a boil. Reduce heat, cover, and simmer for 20 minutes. \n\n -- In a small saucepan, boil carrots in water about 3 to 5 minutes. Drop peas into boiling water, and drain. \n\n -- Heat wok over high heat. Pour in oil, then stir in carrots and peas; cook about 30 seconds. Stir in cooked rice. Shake in soy sauce, and toss rice to coat. Drizzle with sesame oil, and toss again.'
+'-- In a saucepan, combine rice and water. Bring to a boil. Reduce heat, cover, and simmer for 20 minutes. \n\n -- In a small saucepan, boil carrots in water about 3 to 5 minutes. Drop peas into boiling water, and drain. \n\n -- Heat wok over high heat. Pour in oil, then stir in carrots and peas; cook about 30 seconds. Stir in cooked rice. Shake in soy sauce, and toss rice to coat. Drizzle with sesame oil, and toss again.',
+videoSeries : [
+  "aWArcqFI9ag",
+  "hoZccEa0Pqo",
+],
 },
 {
   recipeId: 26,
@@ -718,7 +784,11 @@ ingredients: [
   [53, '1/2'],
 ],
 description:
-' -- Bring a medium saucepan of water to boil. Boil rice vermicelli 3 to 5 minutes, or until al dente, and drain. \n\n -- Fill a large bowl with warm water. Dip one wrapper into the hot water for 1 second to soften. Lay wrapper flat. In a row across the center, place 2 shrimp halves, a handful of vermicelli, basil, mint, cilantro and lettuce, leaving about 2 inches uncovered on each side. Fold uncovered sides inward, then tightly roll the wrapper, beginning at the end with the lettuce. Repeat with remaining ingredients.'
+' -- Bring a medium saucepan of water to boil. Boil rice vermicelli 3 to 5 minutes, or until al dente, and drain. \n\n -- Fill a large bowl with warm water. Dip one wrapper into the hot water for 1 second to soften. Lay wrapper flat. In a row across the center, place 2 shrimp halves, a handful of vermicelli, basil, mint, cilantro and lettuce, leaving about 2 inches uncovered on each side. Fold uncovered sides inward, then tightly roll the wrapper, beginning at the end with the lettuce. Repeat with remaining ingredients.',
+videoSeries : [
+  "wNB05Zc4TqA",
+  "u2dt0yjaLC0",
+],
 },
 {
   recipeId: 27,
@@ -737,7 +807,11 @@ ingredients: [
   [1, '42'],
 ],
 description:
-'-- In a large bowl, stir together the flour and salt. Add the beaten egg, milk, and butter. Knead dough until smooth, about 5 minutes. Let rest in a covered bowl for 10 minutes. \n\n -- On a floured surface, roll out to 1/8 or 1/4 inch thickness. Cut into desired lengths and shapes. \n\n -- To cook fresh noodles, in a large pot with boiling salted water cook until al dente. \n\n -- Mix all the ingredients well in the hot pan and serve after 5-10 minutes.'
+'-- In a large bowl, stir together the flour and salt. Add the beaten egg, milk, and butter. Knead dough until smooth, about 5 minutes. Let rest in a covered bowl for 10 minutes. \n\n -- On a floured surface, roll out to 1/8 or 1/4 inch thickness. Cut into desired lengths and shapes. \n\n -- To cook fresh noodles, in a large pot with boiling salted water cook until al dente. \n\n -- Mix all the ingredients well in the hot pan and serve after 5-10 minutes.',
+videoSeries : [
+  "Sw1UAaYZVeA",
+  "rsGoJ6wJoYQ",
+],
 },
 {
   recipeId: 28,
@@ -759,7 +833,11 @@ ingredients: [
   [76, '2'],
 ],
 description:
-'Bring a large pot with lightly salted water to a rolling boil. Drop the udon in a few noodles at a time and return to a boil. Cook uncovered, stirring occasionally, until the pasta has cooked through, but is still firm to the bite, 10 to 12 minutes. Drain; return to the pot. \n\n -- While the udon noodles are cooking, whisk the chicken broth, ginger, soy sauce, peanut butter, honey, chile oil, and garlic in a saucepan over medium-high heat. Bring to a boil, whisking until the peanut butter has melted. Pour the sauce over the noodles. Add the chicken and red bell pepper; toss until the noodles are evenly coated in the sauce. Sprinkle with green onions, chopped peanuts, and cilantro to serve.'
+'--Bring a large pot with lightly salted water to a rolling boil. Drop the udon in a few noodles at a time and return to a boil. Cook uncovered, stirring occasionally, until the pasta has cooked through, but is still firm to the bite, 10 to 12 minutes. Drain; return to the pot. \n\n -- While the udon noodles are cooking, whisk the chicken broth, ginger, soy sauce, peanut butter, honey, chile oil, and garlic in a saucepan over medium-high heat. Bring to a boil, whisking until the peanut butter has melted. Pour the sauce over the noodles. Add the chicken and red bell pepper; toss until the noodles are evenly coated in the sauce. Sprinkle with green onions, chopped peanuts, and cilantro to serve.',
+videoSeries : [
+  "094IU1btl28",
+  "xSW_sEnLygI",
+],
 },
 {
   recipeId: 29,
@@ -783,6 +861,11 @@ ingredients: [
 ],
 description:
 ' -- In a saucepan, combine 1 1/2 cups water, sugar, vinegar, reserved pineapple juice, and orange food coloring. Heat to boiling. Turn off heat. Combine 1/4 cup cornstarch and 1/4 cup water; slowly stir into saucepan. Continue stirring until mixture thickens. \n\n -- Combine flour, 2 tablespoons oil, 2 tablespoons cornstarch, salt, white pepper, and egg. Add 1 1/2 cups water gradually to make a thick batter. Stir to blend thoroughly. Add chicken pieces, and stir until chicken is well coated. \n\n -- Heat oil in skillet or wok to 360 degrees F (180 degrees C). Fry chicken pieces in hot oil 10 minutes, or until golden. Remove chicken, and drain on paper towels.',
+videoSeries : [
+  "RUDPussbU04",
+  "PiNovstX6YU",
+  "DOIy8HcgOfg",
+],
 },
 {
   recipeId: 30,
@@ -801,16 +884,20 @@ ingredients: [
 ],
 description:
 ' -- In a blender, blend the yogurt, ice, water, sugar and salt until mixture becomes frothy. Pour mixture over ice cubes in tall glasses.',
+videoSeries : [
+  "oelq4CGIhzE",
+  "k-v7jZFFoqc",
+  "9g7Z4zU_4bY",
+],
 },
 {
   recipeId: 31,
   categoryId: 7,
   title: 'Watermelon Mojito',
   photo_url:
-    'https://lh3.googleusercontent.com/proxy/IdcbWRh4qs5T-ERghH-8Ru9MMNiyFOisdwyDsWcXdCGhzSEZY6iMC4VqWMv91rUm1yVT-JdqRKJFhYsKCBjPwUtbjbras58dNAXjRLspYNZKP2kFp9L4bjGvEh-P26cb7SgKtDmj75teql0c',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FO3Ye0_li_uY_z9JjWnuFf_EwTlMZQToZQ&usqp=CAU',
   photosArray: [
-    'https://lh3.googleusercontent.com/proxy/IdcbWRh4qs5T-ERghH-8Ru9MMNiyFOisdwyDsWcXdCGhzSEZY6iMC4VqWMv91rUm1yVT-JdqRKJFhYsKCBjPwUtbjbras58dNAXjRLspYNZKP2kFp9L4bjGvEh-P26cb7SgKtDmj75teql0c'
-  ],
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FO3Ye0_li_uY_z9JjWnuFf_EwTlMZQToZQ&usqp=CAU',],
   time: '10',
   ingredients: [
     [55, '1 cup'],
@@ -820,7 +907,11 @@ description:
     [18, '1 cup'],
     [70, '2cup'],
   ],
-  description: '-- Pour 1/4 to 1/2 inch of sugar onto a small, shallow plate. Run one of the lime quarters around the rim of each cocktail glass, then dip the glasses into the sugar to rim; set aside. \n\n -- Squeeze all of the lime quarters into a sturdy glass pitcher. Toss the juiced limes into the pitcher along with the mint, Watermelon, and 1 cup of sugar. Crush the fruits together with a muddler to release the juices from the Watermelon and the oil from the mint leaves. Stir in the club soda until the sugar has dissolved. Pour into the sugared glasses over ice cubes to serve.'
+  description: '-- Pour 1/4 to 1/2 inch of sugar onto a small, shallow plate. Run one of the lime quarters around the rim of each cocktail glass, then dip the glasses into the sugar to rim; set aside. \n\n -- Squeeze all of the lime quarters into a sturdy glass pitcher. Toss the juiced limes into the pitcher along with the mint, Watermelon, and 1 cup of sugar. Crush the fruits together with a muddler to release the juices from the Watermelon and the oil from the mint leaves. Stir in the club soda until the sugar has dissolved. Pour into the sugared glasses over ice cubes to serve.',
+  videoSeries : [
+    "2zUzILH4To4",
+    "Yd34wIE4ofY",
+  ],
 },
 {
   recipeId: 32,
@@ -836,7 +927,10 @@ description:
     [59, '1'],
     [61, '1/2 liters'],
   ],
-  description: '-- In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with chocolates, if desired.'
+  description: '-- In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with chocolates, if desired.',
+  videoSeries : [
+    "wnJhKQkEz6E",
+  ],
 },
 {
   recipeId: 33,
@@ -858,6 +952,10 @@ description:
   ],
   description:
   ' -- Heat oil in a skillet over medium to high heat. Saute chicken in the hot pan until browned, about 5 to 8 minutes per side. \n\n -- Mash chipotle peppers in a bowl with a fork and mix with cream. Pour over browned chicken and simmer until chicken is fully cooked, about 10 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).',
+  videoSeries : [
+    "kbGzKOCkGVQ",
+    "0TQ2ToeQAls",
+  ],
 },
 {
   recipeId: 34,
@@ -876,6 +974,9 @@ description:
   ],
   description:
 ' -- Arrange the wonton wrappers on the baking sheet in a single layer. Brush each wrapper with egg white; sprinkle with oregano and Parmigiano-Reggiano cheese. Cut each into two triangles using a pizza cutter. \n\n -- Bake in the preheated oven until the edges are brown, 6 to 7 minutes. Transfer to a cooling rack to cool completely. Store in an airtight container up to 2 days.',
+videoSeries : [
+  "XMtPT0X1VFs",
+],
 },
 {
   recipeId: 35,
@@ -898,8 +999,12 @@ description:
     [43, '3/4'], 
     ],
     description:
-    ' -- In a large bowl, cream together the shortening, white sugar and brown sugar. Combine the flour, baking powder, baking soda and salt; stir into the batter until well blended. Mix in the cream, coconut until evenly distributed. Roll dough into walnut sized balls and place 2 inches apart onto prepared cookie sheets. \n\n -- Bake for 12 minutes in the preheated oven, or until edges are lightly browned.'
-},
+    ' -- In a large bowl, cream together the shortening, white sugar and brown sugar. Combine the flour, baking powder, baking soda and salt; stir into the batter until well blended. Mix in the cream, coconut until evenly distributed. Roll dough into walnut sized balls and place 2 inches apart onto prepared cookie sheets. \n\n -- Bake for 12 minutes in the preheated oven, or until edges are lightly browned.',
+    videoSeries : [
+      "3Hmkcw2_go0",
+      "ArXKxgXqzc0",
+    ],
+  },
 {
   recipeId: 36,
   categoryId: 3,
@@ -921,7 +1026,12 @@ description:
     [68, '3/4'], 
     ],
     description:
-    ' -- In a large bowl, cream together the shortening, white sugar and brown sugar. Combine the flour, baking powder, baking soda and salt; stir into the batter until well blended. Mix in the cream, cocoa powder until evenly distributed. Roll dough into walnut sized balls and place 2 inches apart onto prepared cookie sheets. \n\n -- Bake for 12 minutes in the preheated oven, or until edges are lightly browned.'
+    ' -- In a large bowl, cream together the shortening, white sugar and brown sugar. Combine the flour, baking powder, baking soda and salt; stir into the batter until well blended. Mix in the cream, cocoa powder until evenly distributed. Roll dough into walnut sized balls and place 2 inches apart onto prepared cookie sheets. \n\n -- Bake for 12 minutes in the preheated oven, or until edges are lightly browned.',
+    videoSeries : [
+      "MfG1Ir-2WIs",
+      "LV99_0ji4q4",
+     
+    ],
   },
   {
     recipeId: 37,
@@ -939,7 +1049,11 @@ description:
   ],
   description:
   ' -- In a blender, blend the yogurt, ice, water and sugar until mixture becomes frothy. Pour mixture over ice cubes in tall glasses.',
-  },
+  videoSeries : [
+    "WrsMTQaxUoQ",
+   
+  ],
+},
   {
     recipeId: 38,
     categoryId: 7,
@@ -958,7 +1072,11 @@ description:
       [18, '1 cup'],
       [70, '2cup'],
     ],
-    description: '-- Pour 1/4 to 1/2 inch of sugar onto a small, shallow plate. Run one of the lime quarters around the rim of each cocktail glass, then dip the glasses into the sugar to rim; set aside. \n\n -- Squeeze all of the lime quarters into a sturdy glass pitcher. Toss the juiced limes into the pitcher along with the mint, Kiwi, and 1 cup of sugar. Crush the fruits together with a muddler to release the juices from the Kiwi and the oil from the mint leaves. Stir in the club soda until the sugar has dissolved. Pour into the sugared glasses over ice cubes to serve.'
+    description: '-- Pour 1/4 to 1/2 inch of sugar onto a small, shallow plate. Run one of the lime quarters around the rim of each cocktail glass, then dip the glasses into the sugar to rim; set aside. \n\n -- Squeeze all of the lime quarters into a sturdy glass pitcher. Toss the juiced limes into the pitcher along with the mint, Kiwi, and 1 cup of sugar. Crush the fruits together with a muddler to release the juices from the Kiwi and the oil from the mint leaves. Stir in the club soda until the sugar has dissolved. Pour into the sugared glasses over ice cubes to serve.',
+    videoSeries : [
+      "_zlMOApOXdQ",
+      "RauI0wIGYHk",
+    ],
   },
   {
     recipeId: 39,
@@ -979,8 +1097,12 @@ description:
 
   ],
   description:
-  '-- In a saucepan, combine rice and water. Bring to a boil. Reduce heat, cover, and simmer for 20 minutes. \n\n -- In a small saucepan, boil carrots in water about 3 to 5 minutes. Drop peas into boiling water, and drain. \n\n -- Heat wok over high heat. Pour in oil, then stir in carrots, eggs and peas; cook about 30 seconds. Crack in eggs, stirring quickly to scramble eggs with vegetables. Stir in cooked rice. Shake in soy sauce, and toss rice to coat. Drizzle with sesame oil, and toss again.'
-  },  
+  '-- In a saucepan, combine rice and water. Bring to a boil. Reduce heat, cover, and simmer for 20 minutes. \n\n -- In a small saucepan, boil carrots in water about 3 to 5 minutes. Drop peas into boiling water, and drain. \n\n -- Heat wok over high heat. Pour in oil, then stir in carrots, eggs and peas; cook about 30 seconds. Crack in eggs, stirring quickly to scramble eggs with vegetables. Stir in cooked rice. Shake in soy sauce, and toss rice to coat. Drizzle with sesame oil, and toss again.',
+  videoSeries : [
+    "cM2GIJrbXUw",
+    "Jg-HBqyCBCg",
+  ],
+},  
   {
     recipeId: 40,
     categoryId: 4,
@@ -996,7 +1118,10 @@ description:
       [71, '1/2 lbs'],
       [61, '1/2 liters'],
     ],
-    description: '-- In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with chocolates, if desired.'
+    description: '-- In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with chocolates, if desired.',
+    videoSeries : [
+      "GiAvqQsxTlY",
+    ],
   },  
   {
     recipeId: 41,
@@ -1006,7 +1131,7 @@ description:
     photosArray: [
       'https://i.ndtvimg.com/i/2017-08/spicy-chicken-pasta_650x400_81503903192.jpg',
     ],
-    time: 10                                                                               ,
+    time: '10',
     ingredients: [
       [51, '3'],
       [42, '2 tbsp'],
@@ -1022,8 +1147,12 @@ description:
       [73, '1'],
     ],
     description:
-      '-- firstly, in a large kadai boil 6 cup water and 1 tsp salt. once the water comes to a boil, add 2 cup pasta. boil for 7 minutes, or until the pasta is cooked al dente. \n\n --drain off the pasta and keep aside. in a frying pan, heat 2 tbsp oil and saute 3 clove garlic with chicken. add ½ onion, ½ carrot, ½ capsicum and 3 tbsp sweet corn. saute for a minute or until vegetables and chicken shrink slightly yet remain crunchy. further, add ½ tsp pepper and ½ tsp salt. saute well until the spices are well combined. keep aside. to prepare white sauce for pasta, heat 2 tbsp butter. add 3 tbsp maida and saute on low flame. \n\n -- saute until the maida turns aromatic yet do not change its colour. now add 1 cup milk and mix well. mix until the sauce thickens without forming any lumps. further, add 1 more cup of milk and continue to stir continuously. mix continuously, until the sauce thickens. if required using a whisk break the lumps. cook until the sauce turns silk smooth and creamy texture. now add ½ tsp pepper, ½ tsp chilli flakes, ½ tsp mixed herbs and ½ tsp salt. mix well making sure everything is well combined. add in sauted vegetables and chicken, and combine well. now add in boiled pasta and mix gently. add 2 tbsp of boiled pasta water if the sauce thickens. mix gently making sure everything is well combined. '
-  },
+      '-- firstly, in a large kadai boil 6 cup water and 1 tsp salt. once the water comes to a boil, add 2 cup pasta. boil for 7 minutes, or until the pasta is cooked al dente. \n\n --drain off the pasta and keep aside. in a frying pan, heat 2 tbsp oil and saute 3 clove garlic with chicken. add ½ onion, ½ carrot, ½ capsicum and 3 tbsp sweet corn. saute for a minute or until vegetables and chicken shrink slightly yet remain crunchy. further, add ½ tsp pepper and ½ tsp salt. saute well until the spices are well combined. keep aside. to prepare white sauce for pasta, heat 2 tbsp butter. add 3 tbsp maida and saute on low flame. \n\n -- saute until the maida turns aromatic yet do not change its colour. now add 1 cup milk and mix well. mix until the sauce thickens without forming any lumps. further, add 1 more cup of milk and continue to stir continuously. mix continuously, until the sauce thickens. if required using a whisk break the lumps. cook until the sauce turns silk smooth and creamy texture. now add ½ tsp pepper, ½ tsp chilli flakes, ½ tsp mixed herbs and ½ tsp salt. mix well making sure everything is well combined. add in sauted vegetables and chicken, and combine well. now add in boiled pasta and mix gently. add 2 tbsp of boiled pasta water if the sauce thickens. mix gently making sure everything is well combined. ',
+      videoSeries : [
+        "TW_UE7YytFQ",
+        "4wkCMs5Y_rM",
+      ],
+    },
   {
     recipeId: 42,
     categoryId: 1,
@@ -1032,7 +1161,7 @@ description:
     photosArray: [
       'https://i.pinimg.com/originals/5e/dc/7e/5edc7ec0ad76810bad15f261beb25093.jpg',
     ],
-    time: 15,
+    time: '15',
     ingredients: [
       [23, '8 nos'],
       [10, '1/2 cup'],
