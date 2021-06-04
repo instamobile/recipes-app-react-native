@@ -121,7 +121,7 @@ export default class RecipeScreen extends React.Component {
           </View>
           <Button
             title='video'
-            onPress={() => navigation.navigate('videoscreen')}
+            onPress={() => navigation.navigate('videoscreen',{item})}
           />
         </View>
       </ScrollView>
