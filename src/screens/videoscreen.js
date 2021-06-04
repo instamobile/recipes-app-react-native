@@ -36,7 +36,6 @@ const videoscreen = ({navigation}) => {
     <SafeAreaView style={{ flex: 1 }}>
       <FlatList
         contentContainerStyle={{ margin: 16 }}
-        
         data={item.videoSeries || []}
         renderItem={({ item: listitem }) => (
           <VideoItem videoId={listitem} onPress={onVideoPress} />
