@@ -45,13 +45,6 @@ export default class CategoriesScreen extends React.Component {
     const { navigation } = this.props;
     return (
       <View style={styles.view}>
-        <MenuButton
-            title="SEARCH"
-            source={require('../../../assets/icons/search.png')}
-            onPress={() => {
-              navigation.navigate('Search');
-            }}
-          />
         <FlatList style={styles.flat}
         numColumns={2}
           data={categories}
