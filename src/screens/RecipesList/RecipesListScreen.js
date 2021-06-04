@@ -13,7 +13,11 @@ import { TouchableOpacity } from 'react-native-gesture-handler';
 export default class RecipesListScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
-      title: navigation.getParam('title')
+      title: navigation.getParam('title'),
+      headerTintColor: 'black',
+      headerStyle: {
+         backgroundColor: '#A882C1'
+      },
     };
   };
 

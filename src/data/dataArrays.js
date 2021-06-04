@@ -118,7 +118,16 @@ export const recipes = [
     [1, '1/2'], 
     ],
     description:
-    ' -- In a large bowl, cream together the shortening, white sugar and brown sugar. Combine the flour, baking powder, baking soda and salt; stir into the batter until well blended. Mix in the coconut until evenly distributed. Roll dough into walnut sized balls and place 2 inches apart onto prepared cookie sheets. \n\n -- Bake for 12 minutes in the preheated oven, or until edges are lightly browned.'
+
+    ' -- In a large bowl, cream together the shortening, white sugar and brown sugar. Combine the flour, baking powder, baking soda and salt; stir into the batter until well blended. Mix in the coconut until evenly distributed. Roll dough into walnut sized balls and place 2 inches apart onto prepared cookie sheets. \n\n -- Bake for 12 minutes in the preheated oven, or until edges are lightly browned.',
+    
+      videoSeries : [
+        "DC471a9qrU4",
+        "tVCYa_bnITg",
+        "K74l26pE4YA",
+        "m3OjWNFREJo",
+      ]
+
   },
   {
     recipeId: 4,
@@ -885,13 +894,13 @@ export const ingredients = [
   {
     ingredientId: 5,
     name: 'Celery salt',
-    photo_url: 'https://www.hasiroglugurme.com/images/urunler/Koftelik-Esmer-Bulgur-resim-297.jpg'
+    photo_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLpUnvfcn0wF9iG4jYIES6nWE9jLgIxhc72A&usqp=CAU'
   },
   {
     ingredientId: 6,
     name: 'Dried sage',
     photo_url:
-      'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Esxjvv7/super-slow-motion-dried-sage-falling-on-white-background_n1xg2gxzg__F0000.png'
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCh9u1TJj2X1TKGgQXADDmGs9OmAkiTZEQ4w&usqp=CAU'
   },
   {
     ingredientId: 7,
@@ -936,7 +945,7 @@ export const ingredients = [
     ingredientId: 14,
     name: 'Kosher salt',
     photo_url:
-      'https://d1yn1kh78jj1rr.cloudfront.net/image/preview/r64-6MxPQjlatyfjp/storyblocks-top-view-of-ceramic-salt-cellar-with-coarse-grained-sea-salt-isolated-on-white-background_SPzKionPuV_SB_PM.jpg'
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa6M2Ai2dASzgFdOskvLSPiTiy0KY_i1R1oA&usqp=CAU'
   },
   {
     ingredientId: 15,
@@ -1006,7 +1015,7 @@ export const ingredients = [
     ingredientId: 26,
     name: 'Can kidney beans, rinsed and drained ',
     photo_url:
-      'https://www.seriouseats.com/images/2014/04/20140414-pile-of-beans-primary-1500x1125.jpg'
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyMzV_4efTsO3yCg10D0fVVRVcVgkPs_GAiw&usqp=CAU'
   },
   {
     ingredientId: 27,
@@ -1052,7 +1061,7 @@ export const ingredients = [
     ingredientId: 34,
     name: 'Avocado',
     photo_url:
-      'https://www.redwallpapers.com/public/redwallpapers-large-thumb/avocado-cut-stone-leaves-white-background-free-stock-photos-images-hd-wallpaper.jpg'
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpqcdhs1dSmvCpcyK1OuWhrXWUIDbe8CBp4Q&usqp=CAU'
   },
   {
     ingredientId: 35,
@@ -1096,7 +1105,7 @@ export const ingredients = [
   {
     ingredientId: 42,
     name: 'Butter',
-    photo_url: 'https://redrockstoffee.com/media/2016/11/AdobeStock_76417550.jpeg'
+    photo_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh5qUoP7OEbVL-Z6WT4NYBbd11SV2XB34DQ&usqp=CAU'
   },
   {
     ingredientId: 43,

@@ -11,11 +11,16 @@ import {
   getIngredientName,
   getAllIngredients,
 } from '../../data/MockDataAPI';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export default class IngredientsDetailsScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
       title: navigation.getParam('title'),
+      headerTintColor: 'black',
+      headerStyle: {
+         backgroundColor: '#A882C1'
+      },
       headerTitleStyle: {
         fontSize: 16
       }
@@ -33,13 +38,13 @@ export default class IngredientsDetailsScreen extends React.Component {
   };
 
   renderIngredient = ({ item }) => (
-    <TouchableHighlight underlayColor='rgba(73,182,77,0.9)' onPress={() => this.onPressIngredient(item[0])}>
+    <TouchableOpacity onPress={() => this.onPressIngredient(item[0])}>
       <View style={styles.container}>
         <Image style={styles.photo} source={{ uri: item[0].photo_url }} />
         <Text style={styles.title}>{item[0].name}</Text>
         <Text style={{ color: 'grey' }}>{item[1]}</Text>
       </View>
-    </TouchableHighlight>
+    </TouchableOpacity>
   );
 
   render() {
@@ -48,8 +53,8 @@ export default class IngredientsDetailsScreen extends React.Component {
     const ingredientsArray = getAllIngredients(item);
 
     return (
-      <View>
-        <FlatList
+      <View >
+        <FlatList 
           vertical
           showsVerticalScrollIndicator={false}
           numColumns={3}

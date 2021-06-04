@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     margin: RECIPE_ITEM_OFFSET,
     marginTop: 30,
+    marginBottom:20,
     width: (SCREEN_WIDTH - RECIPE_ITEM_MARGIN) / numColumns - RECIPE_ITEM_OFFSET,
     height: RECIPE_ITEM_HEIGHT + 60
   },
@@ -30,7 +31,8 @@ const styles = StyleSheet.create({
     width: (SCREEN_WIDTH - RECIPE_ITEM_MARGIN) / numColumns - RECIPE_ITEM_OFFSET,
     height: RECIPE_ITEM_HEIGHT,
     borderRadius: 60
-  }
+  },
+ 
 });
 
 export default styles;
