@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     width: 25,
     height: 25,
-    margin: 6
+    margin: 6,
   }
 });
 

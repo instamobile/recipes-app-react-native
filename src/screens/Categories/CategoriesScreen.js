@@ -8,12 +8,24 @@ import {
 } from 'react-native';
 import styles from './styles';
 import { categories } from '../../data/dataArrays';
-import { getNumberOfRecipes } from '../../data/MockDataAPI';
+import MenuImage from '../../components/MenuImage/MenuImage';
+import { TouchableOpacity } from 'react-native-gesture-handler';
+import MenuButton from '../../components/MenuButton/MenuButton';
+import { HeaderBackground } from 'react-navigation-stack';
 
 export default class CategoriesScreen extends React.Component {
-  static navigationOptions = {
-    title: 'Categories'
-  };
+  static navigationOptions  = ({ navigation }) => ({
+    title: 'Home',
+    headerTintColor: 'black',
+      headerStyle: {
+         backgroundColor: '#A882C1'
+      },
+    headerLeft: () => <MenuImage
+    onPress={() => {
+      navigation.openDrawer();
+    }}
+  />
+});
 
   constructor(props) {
     super(props);
@@ -26,24 +38,26 @@ export default class CategoriesScreen extends React.Component {
   };
 
   renderCategory = ({ item }) => (
-    <TouchableHighlight underlayColor='rgba(73,182,77,0.9)' onPress={() => this.onPressCategory(item)}>
+    <TouchableOpacity onPress={() => this.onPressCategory(item)}>
       <View style={styles.categoriesItemContainer}>
         <Image style={styles.categoriesPhoto} source={{ uri: item.photo_url }} />
-        <Text style={styles.categoriesName}>{item.name}</Text>
-        <Text style={styles.categoriesInfo}>{getNumberOfRecipes(item.id)} recipes</Text>
+        <Text style={styles.categoriesName}>{item.name}</Text> 
       </View>
-    </TouchableHighlight>
+    </TouchableOpacity>
   );
 
   render() {
+    const { navigation } = this.props;
     return (
-      <View>
-        <FlatList
+      <View style={styles.view}>
+        <FlatList style={styles.flat}
+        numColumns={2}
           data={categories}
           renderItem={this.renderCategory}
           keyExtractor={item => `${item.id}`}
         />
       </View>
+      
     );
   }
 }

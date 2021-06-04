@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Entypo from \"./build/Entypo\";\nexport default Entypo;","map":{"version":3,"sources":["C:/learning/Group-Project/node_modules/@expo/vector-icons/Entypo.js"],"names":["Entypo"],"mappings":"AAAA,OAAOA,MAAP;AACA,eAAeA,MAAf","sourcesContent":["import Entypo from './build/Entypo';\nexport default Entypo;\n"]},"metadata":{},"sourceType":"module"}

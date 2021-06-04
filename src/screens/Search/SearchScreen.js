@@ -15,6 +15,7 @@ import {
   getRecipesByCategoryName,
   getRecipesByIngredientName
 } from '../../data/MockDataAPI';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export default class SearchScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
@@ -100,13 +101,13 @@ export default class SearchScreen extends React.Component {
   };
 
   renderRecipes = ({ item }) => (
-    <TouchableHighlight underlayColor='rgba(73,182,77,0.9)' onPress={() => this.onPressRecipe(item)}>
+    <TouchableOpacity onPress={() => this.onPressRecipe(item)}>
       <View style={styles.container}>
         <Image style={styles.photo} source={{ uri: item.photo_url }} />
         <Text style={styles.title}>{item.title}</Text>
         <Text style={styles.category}>{getCategoryName(item.categoryId)}</Text>
       </View>
-    </TouchableHighlight>
+    </TouchableOpacity>
   );
 
   render() {
