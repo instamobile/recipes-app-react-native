@@ -1,8 +1,19 @@
-import React from "react";
+import React,{Component} from "react";
 
 import { ImageBackground, ScrollView, StyleSheet, Text, View, Image } from "react-native";
 
-const AboutUs = () => (
+export default class AboutUs extends React.Component {
+  static navigationOptions = ({ navigation }) => {
+    return {
+      title: navigation.getParam('title'),
+      headerTintColor: 'black',
+      headerStyle: {
+         backgroundColor: '#A882C1'
+      },
+    };
+  };
+  render(){
+    return(
   <View style={styles.container}>
 
     <ImageBackground source={require('../../../assets/icons/aboutpage.png')} style={styles.image}>
@@ -25,9 +36,8 @@ const AboutUs = () => (
       </ScrollView>
     </ImageBackground>
   </View>
-);
+)}};
 
-export default AboutUs;
 
 const styles = StyleSheet.create({
   container: {
