@@ -7,25 +7,26 @@ import {
   TouchableOpacity,
   Image,
   Dimensions,
-  TouchableHighlight
+  TouchableHighlight,Button
 } from 'react-native';
 import styles from './styles';
 import Carousel, { Pagination } from 'react-native-snap-carousel';
 import { getIngredientName, getCategoryName, getCategoryById } from '../../data/MockDataAPI';
 import BackButton from '../../components/BackButton/BackButton';
 import ViewIngredientsButton from '../../components/ViewIngredientsButton/ViewIngredientsButton';
+import VideoButton from '../../components/VideoButton/VideoButton'
 
 const { width: viewportWidth } = Dimensions.get('window');
 
 export default class RecipeScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
-      headerTransparent: 'true',
-      headerLeft: () => <BackButton
-        onPress={() => {
-          navigation.goBack();
-        }}
-      />
+      title: navigation.getParam('title'),
+     // headerTransparent: 'true',
+      headerTintColor: 'black',
+      headerStyle: {
+         backgroundColor: '#A882C1'
+      },
     };
   };
 
@@ -37,11 +38,11 @@ export default class RecipeScreen extends React.Component {
   }
 
   renderImage = ({ item }) => (
-    <TouchableHighlight>
+    <TouchableOpacity>
       <View style={styles.imageContainer}>
         <Image style={styles.image} source={{ uri: item }} />
       </View>
-    </TouchableHighlight>
+    </TouchableOpacity>
   );
 
   onPressIngredient = item => {
@@ -56,7 +57,7 @@ export default class RecipeScreen extends React.Component {
     const item = navigation.getParam('item');
     const category = getCategoryById(item.categoryId);
     const title = getCategoryName(category.id);
-
+    
     return (
       <ScrollView style={styles.container}>
         <View style={styles.carouselContainer}>
@@ -95,11 +96,11 @@ export default class RecipeScreen extends React.Component {
         <View style={styles.infoRecipeContainer}>
           <Text style={styles.infoRecipeName}>{item.title}</Text>
           <View style={styles.infoContainer}>
-            <TouchableHighlight
+            <TouchableOpacity
               onPress={() => navigation.navigate('RecipesList', { category, title })}
             >
               <Text style={styles.category}>{getCategoryName(item.categoryId).toUpperCase()}</Text>
-            </TouchableHighlight>
+            </TouchableOpacity>
           </View>
 
           <View style={styles.infoContainer}>
@@ -115,6 +116,11 @@ export default class RecipeScreen extends React.Component {
                 navigation.navigate('IngredientsDetails', { ingredients, title });
               }}
             />
+          </View>
+          <View> 
+            <VideoButton
+            onPress={() => navigation.navigate('videoscreen',{item})}>
+          </VideoButton>
           </View>
           <View style={styles.infoContainer}>
             <Text style={styles.infoDescriptionRecipe}>{item.description}</Text>

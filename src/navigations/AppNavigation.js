@@ -5,7 +5,6 @@ import {createStackNavigator} from 'react-navigation-stack'
 import {createStackNavigator} from '@react-navigation/stack'
 import {NavigationContainer} from '@react-navigation/native'
 import {createDrawerNavigator} from '@react-navigation/drawer' */
-import HomeScreen from '../screens/Home/HomeScreen';
 import CategoriesScreen from '../screens/Categories/CategoriesScreen';
 import RecipeScreen from '../screens/Recipe/RecipeScreen';
 import RecipesListScreen from '../screens/RecipesList/RecipesListScreen';
@@ -13,7 +12,8 @@ import DrawerContainer from '../screens/DrawerContainer/DrawerContainer';
 import IngredientScreen from '../screens/Ingredient/IngredientScreen';
 import SearchScreen from '../screens/Search/SearchScreen';
 import IngredientsDetailsScreen from '../screens/IngredientsDetails/IngredientsDetailsScreen';
-
+import AboutUsScreen from '../screens/AboutUs/AboutUsScreen';
+import videoscreen from '../screens/videoscreen'
 /* const Stack = createStackNavigator();
 
 function MainNavigator() {
@@ -41,16 +41,18 @@ function MainNavigator() {
 
 const MainNavigator = createStackNavigator(
   {
-    Home: HomeScreen,
+
     Categories: CategoriesScreen,
     Recipe: RecipeScreen,
     RecipesList: RecipesListScreen,
     Ingredient: IngredientScreen,
     Search: SearchScreen,
-    IngredientsDetails: IngredientsDetailsScreen
+    IngredientsDetails: IngredientsDetailsScreen,
+    AboutUs :AboutUsScreen,
+    videoscreen:videoscreen
   },
   {
-    initialRouteName: 'Home',
+    initialRouteName: 'Categories',
     // headerMode: 'float',
     defaulfNavigationOptions: ({ navigation }) => ({
       headerTitleStyle: {

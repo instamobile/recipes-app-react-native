@@ -6,10 +6,15 @@ const styles = StyleSheet.create({
     margin: 10,
     justifyContent: 'center',
     alignItems: 'center',
-    height: 215,
-    borderColor: '#cccccc',
+    height: 225,
+    width:170,
+    borderColor: '#000000',
     borderWidth: 0.5,
     borderRadius: 20,
+  },
+  view:{
+    padding:8,
+    backgroundColor:'#F4F3F4'
   },
   categoriesPhoto: {
     width: '100%',
@@ -37,6 +42,9 @@ const styles = StyleSheet.create({
   categoriesInfo: {
     marginTop: 3,
     marginBottom: 5
+  },
+  flat:{
+    marginBottom:50
   }
 });
 
