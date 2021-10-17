@@ -9,14 +9,29 @@ import {
 import styles from './styles';
 import { categories } from '../../data/dataArrays';
 import { getNumberOfRecipes } from '../../data/MockDataAPI';
+import MenuImage from '../../components/MenuImage/MenuImage';
 
 export default class CategoriesScreen extends React.Component {
-  static navigationOptions = {
-    title: 'Categories'
-  };
 
   constructor(props) {
     super(props);
+
+    const {navigation} = props;
+    navigation.setOptions({
+      headerTitleStyle: {
+        fontWeight: 'bold',
+        textAlign: 'center',
+        alignSelf: 'center',
+        flex: 1,
+      },
+      headerLeft: () => 
+        <MenuImage
+          onPress={() => {
+            navigation.openDrawer();
+          }}
+        />,
+      headerRight: () => <View/>
+    })
   }
 
   onPressCategory = item => {

@@ -17,17 +17,19 @@ import {
 } from '../../data/MockDataAPI';
 
 export default class SearchScreen extends React.Component {
-  static navigationOptions = ({ navigation }) => {
-    const { params = {} } = navigation.state;
-    return {
-      headerRight: (
+  
+  constructor(props) {
+    super(props);
+    const {navigation} = props
+    navigation.setOptions({
+      headerLeft: ()=>
         <MenuImage
           onPress={() => {
             navigation.openDrawer();
           }}
         />
-      ),
-      headerTitle: (
+      ,
+      headerTitle: ()=>
         <SearchBar
           containerStyle={{
             backgroundColor: 'transparent',
@@ -47,29 +49,16 @@ export default class SearchScreen extends React.Component {
           clearIcon
           //lightTheme
           round
-          onChangeText={text => params.handleSearch(text)}
-          //onClear={() => params.handleSearch('')}
+          onChangeText={text => this.handleSearch(text)}
           placeholder="Search"
-          value={params.data}
-        />
-      )
-    };
-  };
-
-  constructor(props) {
-    super(props);
+          value={this.getValue}
+        />,
+      headerRight: () => <View/>
+    })
     this.state = {
       value: '',
       data: []
     };
-  }
-
-  componentDidMount() {
-    const { navigation } = this.props;
-    navigation.setParams({
-      handleSearch: this.handleSearch,
-      data: this.getValue
-    });
   }
 
   handleSearch = text => {
