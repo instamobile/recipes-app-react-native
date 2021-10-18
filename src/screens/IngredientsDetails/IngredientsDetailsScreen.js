@@ -1,61 +1,42 @@
-import React from 'react';
-import {
-  FlatList,
-  Text,
-  View,
-  Image,
-  TouchableHighlight
-} from 'react-native';
-import styles from './styles';
-import {
-  getIngredientName,
-  getAllIngredients,
-} from '../../data/MockDataAPI';
+import React, { useLayoutEffect } from "react";
+import { FlatList, Text, View, Image, TouchableHighlight } from "react-native";
+import styles from "./styles";
+import { getIngredientName, getAllIngredients } from "../../data/MockDataAPI";
 
-export default class IngredientsDetailsScreen extends React.Component {
+export default function IngredientsDetailsScreen(props) {
+  const { navigation, route } = props;
 
-  constructor(props) {
-    super(props);
-    props.navigation.setOptions({
-      title: props.route.params?.title,
+  const item = route.params?.ingredients;
+  const ingredientsArray = getAllIngredients(item);
+
+  useLayoutEffect(() => {
+    navigation.setOptions({
+      title: route.params?.title,
       headerTitleStyle: {
-        fontSize: 16
-      }
-    })
-  }
+        fontSize: 16,
+      },
+    });
+  }, []);
 
-  onPressIngredient = item => {
+  const onPressIngredient = (item) => {
     let name = getIngredientName(item.ingredientId);
     let ingredient = item.ingredientId;
-    this.props.navigation.navigate('Ingredient', { ingredient, name });
+    navigation.navigate("Ingredient", { ingredient, name });
   };
 
-  renderIngredient = ({ item }) => (
-    <TouchableHighlight underlayColor='rgba(73,182,77,0.9)' onPress={() => this.onPressIngredient(item[0])}>
+  const renderIngredient = ({ item }) => (
+    <TouchableHighlight underlayColor="rgba(73,182,77,0.9)" onPress={() => onPressIngredient(item[0])}>
       <View style={styles.container}>
         <Image style={styles.photo} source={{ uri: item[0].photo_url }} />
         <Text style={styles.title}>{item[0].name}</Text>
-        <Text style={{ color: 'grey' }}>{item[1]}</Text>
+        <Text style={{ color: "grey" }}>{item[1]}</Text>
       </View>
     </TouchableHighlight>
   );
 
-  render() {
-    const { route } = this.props;
-    const item = route.params?.ingredients;
-    const ingredientsArray = getAllIngredients(item);
-
-    return (
-      <View>
-        <FlatList
-          vertical
-          showsVerticalScrollIndicator={false}
-          numColumns={3}
-          data={ingredientsArray}
-          renderItem={this.renderIngredient}
-          keyExtractor={item => `${item.recipeId}`}
-        />
-      </View>
-    );
-  }
+  return (
+    <View>
+      <FlatList vertical showsVerticalScrollIndicator={false} numColumns={3} data={ingredientsArray} renderItem={renderIngredient} keyExtractor={(item) => `${item.recipeId}`} />
+    </View>
+  );
 }

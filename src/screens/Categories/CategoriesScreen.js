@@ -1,47 +1,40 @@
-import React from 'react';
-import {
-  FlatList,
-  Text,
-  View,
-  Image,
-  TouchableHighlight
-} from 'react-native';
-import styles from './styles';
-import { categories } from '../../data/dataArrays';
-import { getNumberOfRecipes } from '../../data/MockDataAPI';
-import MenuImage from '../../components/MenuImage/MenuImage';
+import React, { useLayoutEffect } from "react";
+import { FlatList, Text, View, Image, TouchableHighlight } from "react-native";
+import styles from "./styles";
+import { categories } from "../../data/dataArrays";
+import { getNumberOfRecipes } from "../../data/MockDataAPI";
+import MenuImage from "../../components/MenuImage/MenuImage";
 
-export default class CategoriesScreen extends React.Component {
+export default function CategoriesScreen(props) {
+  const { navigation } = props;
 
-  constructor(props) {
-    super(props);
-
-    const {navigation} = props;
+  useLayoutEffect(() => {
     navigation.setOptions({
       headerTitleStyle: {
-        fontWeight: 'bold',
-        textAlign: 'center',
-        alignSelf: 'center',
+        fontWeight: "bold",
+        textAlign: "center",
+        alignSelf: "center",
         flex: 1,
       },
-      headerLeft: () => 
+      headerLeft: () => (
         <MenuImage
           onPress={() => {
             navigation.openDrawer();
           }}
-        />,
-      headerRight: () => <View/>
-    })
-  }
+        />
+      ),
+      headerRight: () => <View />,
+    });
+  }, []);
 
-  onPressCategory = item => {
+  const onPressCategory = (item) => {
     const title = item.name;
     const category = item;
-    this.props.navigation.navigate('RecipesList', { category, title });
+    navigation.navigate("RecipesList", { category, title });
   };
 
-  renderCategory = ({ item }) => (
-    <TouchableHighlight underlayColor='rgba(73,182,77,0.9)' onPress={() => this.onPressCategory(item)}>
+  const renderCategory = ({ item }) => (
+    <TouchableHighlight underlayColor="rgba(73,182,77,0.9)" onPress={() => onPressCategory(item)}>
       <View style={styles.categoriesItemContainer}>
         <Image style={styles.categoriesPhoto} source={{ uri: item.photo_url }} />
         <Text style={styles.categoriesName}>{item.name}</Text>
@@ -50,15 +43,9 @@ export default class CategoriesScreen extends React.Component {
     </TouchableHighlight>
   );
 
-  render() {
-    return (
-      <View>
-        <FlatList
-          data={categories}
-          renderItem={this.renderCategory}
-          keyExtractor={item => `${item.id}`}
-        />
-      </View>
-    );
-  }
+  return (
+    <View>
+      <FlatList data={categories} renderItem={renderCategory} keyExtractor={(item) => `${item.id}`} />
+    </View>
+  );
 }
