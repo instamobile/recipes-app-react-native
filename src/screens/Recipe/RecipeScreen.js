@@ -1,10 +1,8 @@
 import React from 'react';
 import {
-  FlatList,
   ScrollView,
   Text,
   View,
-  TouchableOpacity,
   Image,
   Dimensions,
   TouchableHighlight
@@ -18,19 +16,21 @@ import ViewIngredientsButton from '../../components/ViewIngredientsButton/ViewIn
 const { width: viewportWidth } = Dimensions.get('window');
 
 export default class RecipeScreen extends React.Component {
-  static navigationOptions = ({ navigation }) => {
-    return {
-      headerTransparent: 'true',
-      headerLeft: () => <BackButton
-        onPress={() => {
-          navigation.goBack();
-        }}
-      />
-    };
-  };
 
   constructor(props) {
     super(props);
+
+    const {navigation} = props
+    navigation.setOptions({
+      headerTransparent: 'true',
+      headerLeft: () => 
+        <BackButton
+          onPress={() => {
+            navigation.goBack();
+          }}
+        />,
+      headerRight: () => <View/>
+    })
     this.state = {
       activeSlide: 0
     };
@@ -52,8 +52,8 @@ export default class RecipeScreen extends React.Component {
 
   render() {
     const { activeSlide } = this.state;
-    const { navigation } = this.props;
-    const item = navigation.getParam('item');
+    const { navigation, route } = this.props;
+    const item = route.params.item;
     const category = getCategoryById(item.categoryId);
     const title = getCategoryName(category.id);
 

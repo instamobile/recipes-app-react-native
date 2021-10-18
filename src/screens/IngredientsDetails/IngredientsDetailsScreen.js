@@ -13,17 +13,15 @@ import {
 } from '../../data/MockDataAPI';
 
 export default class IngredientsDetailsScreen extends React.Component {
-  static navigationOptions = ({ navigation }) => {
-    return {
-      title: navigation.getParam('title'),
-      headerTitleStyle: {
-        fontSize: 16
-      }
-    };
-  };
 
   constructor(props) {
     super(props);
+    props.navigation.setOptions({
+      title: props.route.params?.title,
+      headerTitleStyle: {
+        fontSize: 16
+      }
+    })
   }
 
   onPressIngredient = item => {
@@ -43,8 +41,8 @@ export default class IngredientsDetailsScreen extends React.Component {
   );
 
   render() {
-    const { navigation } = this.props;
-    const item = navigation.getParam('ingredients');
+    const { route } = this.props;
+    const item = route.params?.ingredients;
     const ingredientsArray = getAllIngredients(item);
 
     return (

@@ -10,14 +10,14 @@ import styles from './styles';
 import { getRecipes, getCategoryName } from '../../data/MockDataAPI';
 
 export default class RecipesListScreen extends React.Component {
-  static navigationOptions = ({ navigation }) => {
-    return {
-      title: navigation.getParam('title')
-    };
-  };
 
   constructor(props) {
     super(props);
+    const {navigation, route} = props
+    navigation.setOptions({
+      title: route.params?.title,
+      headerRight: ()=> <View/>
+    })
   }
 
   onPressRecipe = item => {
@@ -35,8 +35,8 @@ export default class RecipesListScreen extends React.Component {
   );
 
   render() {
-    const { navigation } = this.props;
-    const item = navigation.getParam('category');
+    const {  route } = this.props;
+    const item = route?.params?.category;
     const recipesArray = getRecipes(item.id);
     return (
       <View>

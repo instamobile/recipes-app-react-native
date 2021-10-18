@@ -1,23 +1,24 @@
 import React from 'react';
-import { FlatList, ScrollView, Text, View, TouchableHighlight, Image } from 'react-native';
+import { FlatList, Text, View, TouchableHighlight, Image } from 'react-native';
 import styles from './styles';
 import { recipes } from '../../data/dataArrays';
 import MenuImage from '../../components/MenuImage/MenuImage';
-import DrawerActions from 'react-navigation';
 import { getCategoryName } from '../../data/MockDataAPI';
 
 export default class HomeScreen extends React.Component {
-  static navigationOptions = ({ navigation }) => ({
-    title: 'Home',
-    headerLeft: () => <MenuImage
-      onPress={() => {
-        navigation.openDrawer();
-      }}
-    />
-  });
 
   constructor(props) {
     super(props);
+    const {navigation} = props;
+    navigation.setOptions({
+      headerLeft: () => 
+        <MenuImage
+          onPress={() => {
+            navigation.openDrawer();
+          }}
+        />,
+      headerRight: () => <View/>
+    })
   }
 
   onPressRecipe = item => {
