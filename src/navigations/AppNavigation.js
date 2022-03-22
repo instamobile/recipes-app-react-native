@@ -10,6 +10,8 @@ import DrawerContainer from '../screens/DrawerContainer/DrawerContainer';
 import IngredientScreen from '../screens/Ingredient/IngredientScreen';
 import SearchScreen from '../screens/Search/SearchScreen';
 import IngredientsDetailsScreen from '../screens/IngredientsDetails/IngredientsDetailsScreen';
+import SingIn from '../screens/SignIn/SignIn';
+
 
  const Stack = createStackNavigator();
 
@@ -25,6 +27,9 @@ function MainNavigator() {
           }
       }}
     >
+      
+     
+      <Stack.Screen name='SingIn' component={SingIn} />
       <Stack.Screen name='Home' component={HomeScreen} />
       <Stack.Screen name='Categories' component={CategoriesScreen}/>
       <Stack.Screen name='Recipe' component={RecipeScreen}/>
@@ -66,4 +71,3 @@ function DrawerStack() {
 } 
  
 
-console.disableYellowBox = true;
