@@ -33,6 +33,14 @@ export default function DrawerContainer(props) {
             navigation.closeDrawer();
           }}
         />
+        <MenuButton
+          title="LOGOUT"
+          source={require("../../../assets/icons/search.png")}
+          onPress={() => {
+            navigation.navigate("SingIn");
+            navigation.closeDrawer();
+          }}
+        />
       </View>
     </View>
   );
