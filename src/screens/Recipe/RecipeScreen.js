@@ -64,7 +64,7 @@ export default function RecipeScreen(props) {
             autoplay={false}
             autoplayDelay={500}
             autoplayInterval={3000}
-            onSnapToItem={(index) => setActiveSlide(0)}
+            onSnapToItem={(index) => setActiveSlide(index)}
           />
           <Pagination
             dotsLength={item.photosArray.length}
