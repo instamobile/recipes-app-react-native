@@ -1,8 +1,19 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
-import { ScrollView, Text, View, Image, Dimensions, TouchableHighlight } from "react-native";
+import {
+  ScrollView,
+  Text,
+  View,
+  Image,
+  Dimensions,
+  TouchableHighlight,
+} from "react-native";
 import styles from "./styles";
 import Carousel, { Pagination } from "react-native-snap-carousel";
-import { getIngredientName, getCategoryName, getCategoryById } from "../../data/MockDataAPI";
+import {
+  getIngredientName,
+  getCategoryName,
+  getCategoryById,
+} from "../../data/MockDataAPI";
 import BackButton from "../../components/BackButton/BackButton";
 import ViewIngredientsButton from "../../components/ViewIngredientsButton/ViewIngredientsButton";
 
@@ -64,7 +75,7 @@ export default function RecipeScreen(props) {
             autoplay={false}
             autoplayDelay={500}
             autoplayInterval={3000}
-            onSnapToItem={(index) => setActiveSlide(index)}
+            onSnapToItem={(index) => setActiveSlide(0)}
           />
           <Pagination
             dotsLength={item.photosArray.length}
@@ -83,13 +94,22 @@ export default function RecipeScreen(props) {
       <View style={styles.infoRecipeContainer}>
         <Text style={styles.infoRecipeName}>{item.title}</Text>
         <View style={styles.infoContainer}>
-          <TouchableHighlight onPress={() => navigation.navigate("RecipesList", { category, title })}>
-            <Text style={styles.category}>{getCategoryName(item.categoryId).toUpperCase()}</Text>
+          <TouchableHighlight
+            onPress={() =>
+              navigation.navigate("RecipesList", { category, title })
+            }
+          >
+            <Text style={styles.category}>
+              {getCategoryName(item.categoryId).toUpperCase()}
+            </Text>
           </TouchableHighlight>
         </View>
 
         <View style={styles.infoContainer}>
-          <Image style={styles.infoPhoto} source={require("../../../assets/icons/time.png")} />
+          <Image
+            style={styles.infoPhoto}
+            source={require("../../../assets/icons/time.png")}
+          />
           <Text style={styles.infoRecipe}>{item.time} minutes </Text>
         </View>
 
