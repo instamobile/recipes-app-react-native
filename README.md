@@ -7,7 +7,7 @@ Download this beautiful free React Native starter kit, featuring a recipes app, 
 ## Getting Started
 To run the app, simply run
 
-``` npm install && expo start ```
+``` yarn install && expo start ```
 
 And scan the QR code in the Expo client app.
 
