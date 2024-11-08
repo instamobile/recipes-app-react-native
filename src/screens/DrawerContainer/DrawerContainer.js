@@ -13,7 +13,7 @@ export default function DrawerContainer(props) {
           title="HOME"
           source={require("../../../assets/icons/home.png")}
           onPress={() => {
-            navigation.navigate("Home");
+            navigation.navigate("Main", { screen: "Home" });
             navigation.closeDrawer();
           }}
         />
@@ -21,7 +21,7 @@ export default function DrawerContainer(props) {
           title="CATEGORIES"
           source={require("../../../assets/icons/category.png")}
           onPress={() => {
-            navigation.navigate("Categories");
+            navigation.navigate("Main", { screen: "Categories" });
             navigation.closeDrawer();
           }}
         />
@@ -29,7 +29,7 @@ export default function DrawerContainer(props) {
           title="SEARCH"
           source={require("../../../assets/icons/search.png")}
           onPress={() => {
-            navigation.navigate("Search");
+            navigation.navigate("Main", { screen: "Search" });
             navigation.closeDrawer();
           }}
         />
@@ -41,5 +41,6 @@ export default function DrawerContainer(props) {
 DrawerContainer.propTypes = {
   navigation: PropTypes.shape({
     navigate: PropTypes.func.isRequired,
+    closeDrawer: PropTypes.func.isRequired,
   }),
 };

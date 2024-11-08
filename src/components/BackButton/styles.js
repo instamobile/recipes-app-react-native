@@ -1,14 +1,13 @@
+// BackButton/styles.js
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   btnContainer: {
-    flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    borderRadius: 180,
-    paddingHorizontal: 12,
-    paddingVertical: 16,
-    margin: 10,
+    borderRadius: 20, 
+    padding: 10, 
+    margin: 8, 
     backgroundColor: "white",
     shadowColor: "#000",
     shadowOffset: {
@@ -20,8 +19,8 @@ const styles = StyleSheet.create({
     elevation: 3,
   },
   btnIcon: {
-    height: 14,
-    width: 14,
+    height: 20, 
+    width: 20,
   },
 });
 
