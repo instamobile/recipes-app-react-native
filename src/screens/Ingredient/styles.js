@@ -2,6 +2,10 @@ import { StyleSheet } from 'react-native';
 import { RecipeCard } from '../../AppStyles';
 
 const styles = StyleSheet.create({
+  mainContainer: {
+    flex: 1,
+    backgroundColor: 'white',
+  },
   titleIngredient: {
     fontWeight: 'bold',
     fontSize: 20

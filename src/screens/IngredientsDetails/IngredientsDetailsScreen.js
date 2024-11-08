@@ -24,8 +24,11 @@ export default function IngredientsDetailsScreen(props) {
     navigation.navigate("Ingredient", { ingredient, name });
   };
 
-  const renderIngredient = ({ item }) => (
-    <TouchableHighlight underlayColor="rgba(73,182,77,0.9)" onPress={() => onPressIngredient(item[0])}>
+  const renderIngredient = ({ item, index }) => (
+    <TouchableHighlight
+      underlayColor="rgba(73,182,77,0.9)"
+      onPress={() => onPressIngredient(item[0])}
+    >
       <View style={styles.container}>
         <Image style={styles.photo} source={{ uri: item[0].photo_url }} />
         <Text style={styles.title}>{item[0].name}</Text>
@@ -36,7 +39,14 @@ export default function IngredientsDetailsScreen(props) {
 
   return (
     <View>
-      <FlatList vertical showsVerticalScrollIndicator={false} numColumns={3} data={ingredientsArray} renderItem={renderIngredient} keyExtractor={(item) => `${item.recipeId}`} />
+      <FlatList
+        vertical
+        showsVerticalScrollIndicator={false}
+        numColumns={3}
+        data={ingredientsArray}
+        renderItem={renderIngredient}
+        keyExtractor={(item, index) => `${item[0].ingredientId}_${index}`}
+      />
     </View>
   );
 }

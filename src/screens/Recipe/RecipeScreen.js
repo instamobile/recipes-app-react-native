@@ -8,7 +8,8 @@ import {
   TouchableHighlight,
 } from "react-native";
 import styles from "./styles";
-import Carousel, { Pagination } from "react-native-snap-carousel";
+import { useSharedValue } from 'react-native-reanimated';
+import Carousel, { Pagination } from 'react-native-reanimated-carousel';
 import {
   getIngredientName,
   getCategoryName,
@@ -21,14 +22,11 @@ const { width: viewportWidth } = Dimensions.get("window");
 
 export default function RecipeScreen(props) {
   const { navigation, route } = props;
-
   const item = route.params?.item;
   const category = getCategoryById(item.categoryId);
   const title = getCategoryName(category.id);
-
-  const [activeSlide, setActiveSlide] = useState(0);
-
-  const slider1Ref = useRef();
+  const slider1Ref = useRef(null)
+  const progress = useSharedValue(0)
 
   useLayoutEffect(() => {
     navigation.setOptions({
@@ -58,36 +56,48 @@ export default function RecipeScreen(props) {
     navigation.navigate("Ingredient", { ingredient, name });
   };
 
+
+  const onPressPagination = (index) =>
+    {
+      slider1Ref.current?.scrollTo({
+        count: index - progress.value,
+        animated: true,
+      })
+    }
+  
+
   return (
     <ScrollView style={styles.container}>
       <View style={styles.carouselContainer}>
         <View style={styles.carousel}>
           <Carousel
-            ref={slider1Ref}
-            data={item.photosArray}
-            renderItem={renderImage}
-            sliderWidth={viewportWidth}
-            itemWidth={viewportWidth}
-            inactiveSlideScale={1}
-            inactiveSlideOpacity={1}
-            firstItem={0}
+              ref={c =>
+              {
+                slider1Ref.current = c
+              }}
             loop={false}
-            autoplay={false}
-            autoplayDelay={500}
-            autoplayInterval={3000}
-            onSnapToItem={(index) => setActiveSlide(0)}
+            width={viewportWidth}
+            height={viewportWidth}
+            autoPlay={false}
+            data={item.photosArray}
+            scrollAnimationDuration={1000}
+            renderItem={renderImage}
+            onProgressChange={progress}
           />
-          <Pagination
-            dotsLength={item.photosArray.length}
-            activeDotIndex={activeSlide}
-            containerStyle={styles.paginationContainer}
-            dotColor="rgba(255, 255, 255, 0.92)"
+          <Pagination.Basic
+            renderItem={(item) => (
+              <View
+                style={{
+                  backgroundColor: "rgba(255,255,255,1)",
+                  flex: 1,
+                }}
+              />
+            )}
+            progress={progress}
+            data={item.photosArray}
             dotStyle={styles.paginationDot}
-            inactiveDotColor="white"
-            inactiveDotOpacity={0.4}
-            inactiveDotScale={0.6}
-            carouselRef={slider1Ref.current}
-            tappableDots={!!slider1Ref.current}
+            containerStyle={styles.paginationContainer}
+            onPress={onPressPagination}
           />
         </View>
       </View>

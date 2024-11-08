@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     flex: 1
   },
   carouselContainer: {
-    minHeight: 250
+    height: 250  
   },
   carousel: {},
 
@@ -28,13 +28,15 @@ const styles = StyleSheet.create({
     position: 'absolute',
     alignSelf: 'center',
     paddingVertical: 8,
-    marginTop: 200
+    marginTop: 200,
+    gap: 20,
   },
   paginationDot: {
     width: 8,
     height: 8,
     borderRadius: 4,
-    marginHorizontal: 0
+    marginHorizontal: 0,
+    backgroundColor: "rgba(255,255,255,0.2)",
   },
   infoRecipeContainer: {
     flex: 1,
